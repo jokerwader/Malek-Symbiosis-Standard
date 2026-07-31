@@ -1,0 +1,103 @@
+name: Framework gate gap
+description: A decision that passes all eight principles and should not. This is the highest-priority report in this repository.
+title: "Framework gate gap: "
+labels: ["framework gate gap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This is the one report that can change the canonical text on its own.**
+
+        It is the only report the framework cannot answer with "you used it wrong." Chapter 9 of the standard admits the gate can be beaten. This is somebody showing exactly how.
+
+        Answer in English or Polish — both are fine. *Po polsku też można.*
+
+        If one of the eight principles **does** catch it, you have not found a gap — you have found a case where the framework worked. Send it anyway and say so; it may end up in `examples/`.
+
+  - type: input
+    id: decision
+    attributes:
+      label: The decision
+      description: What was being decided. One sentence.
+      placeholder: e.g. Switching a paid add-on on by default for every existing free account.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Who was involved and what was at stake. Real, or realistic.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: consequence
+    attributes:
+      label: Consequence
+      options:
+        - irreversible (one-way)
+        - reversible (two-way)
+    validations:
+      required: true
+
+  - type: input
+    id: consequence-reason
+    attributes:
+      label: Reason for that classification
+      description: A fact from this decision, not a restatement of the definition.
+    validations:
+      required: true
+
+  - type: textarea
+    id: the-eight
+    attributes:
+      label: The eight, one by one
+      description: For each principle, say why it lets this through. This is the part that decides whether the report holds.
+      value: |
+        Who feels it:          passes —
+        Can they refuse:       passes —
+        Who answers for it:    passes —
+        Is it true:            passes —
+        Where is the catch:    passes —
+        Should we:             passes —
+        Do we keep our word:   passes —
+        What if it repeats:    passes —
+    validations:
+      required: true
+
+  - type: textarea
+    id: harm
+    attributes:
+      label: What goes wrong
+      description: The harm, and the named party who carries it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-nothing-catches
+    attributes:
+      label: Why nothing catches it
+      description: |
+        **This is the part that matters.** Not "the gate feels weak" — which principle should have caught it, and what stops it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested fix
+      description: |
+        Optional. If you propose adding text, name the text you would cut to make room — see the volume rule in CONTRIBUTING.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you send
+      options:
+        - label: I ran all eight principles, not just the ones that seemed relevant.
+          required: true
+        - label: The decision looks sensible at first glance. It is not obvious villainy.
+          required: false

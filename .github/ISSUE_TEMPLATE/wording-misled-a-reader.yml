@@ -1,0 +1,59 @@
+name: Wording that misled a real reader
+description: A sentence in the standard that a real person read and understood differently from how it is defined.
+title: "Wording: "
+labels: ["wording"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English or Polish, both fine. *Po polsku też można.*
+
+        **"This is confusing" without a reader attached is a remark, and remarks bind nobody.** This form asks for the reader.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: File and section, or the sentence itself.
+      placeholder: e.g. standard/STANDARD.md, principle 2 — Can they refuse
+    validations:
+      required: true
+
+  - type: textarea
+    id: quote
+    attributes:
+      label: The sentence, quoted
+    validations:
+      required: true
+
+  - type: input
+    id: who
+    attributes:
+      label: Who read it
+      description: Their role, not their name. What they do for a living matters; who they are does not.
+      placeholder: e.g. an office manager with no AI background
+    validations:
+      required: true
+
+  - type: textarea
+    id: understood
+    attributes:
+      label: What they thought it meant
+    validations:
+      required: true
+
+  - type: textarea
+    id: did
+    attributes:
+      label: What they did as a result
+      description: If nothing followed from the misreading, say so — it is still worth knowing, but it ranks lower.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed wording
+      description: Optional. A `Why:`, an `Example:` or a `Note:` may be added freely and needs no counterpart cut. A new rule needs one.
+    validations:
+      required: false

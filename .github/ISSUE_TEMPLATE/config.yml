@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read CONTRIBUTING first
+    url: https://github.com/OWNER/Malek-Symbiosis-Standard/blob/main/CONTRIBUTING.md
+    about: What gets read first, what is not accepted, and how long an answer takes. Polish version — CONTRIBUTING.pl.md.
+  - name: Test suite — run it before reporting
+    url: https://github.com/OWNER/Malek-Symbiosis-Standard/tree/main/tests
+    about: Thirty scenarios with no expected verdicts written down. The fastest way to produce a framework gate gap worth reporting.
+  - name: Security
+    url: https://github.com/OWNER/Malek-Symbiosis-Standard/blob/main/SECURITY.md
+    about: A gap in the framework gate is reported in the open, not privately. This says what the exceptions are.

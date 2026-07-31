@@ -1,0 +1,11 @@
+# Normalise line endings so that a checkout on Windows and a checkout on Linux
+# produce the same file. Without this, every .md file changes wholesale the first
+# time somebody on the other platform saves it, and the diff becomes unreadable.
+* text=auto eol=lf
+
+# Binary
+*.png binary
+
+# Treat the standard as prose in diffs, so a changed sentence shows as a changed
+# sentence rather than a changed paragraph.
+*.md diff=markdown

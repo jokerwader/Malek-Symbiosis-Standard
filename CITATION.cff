@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use the Malek Symbiosis Standard, please cite it as below."
+title: "Malek Symbiosis Standard (MSS)"
+type: dataset
+authors:
+  - family-names: "Małek"
+    given-names: "Mateusz"
+version: "4.5.0"
+license: CC-BY-SA-4.0
+abstract: >-
+  The Malek Symbiosis Standard (MSS) is a decision-discipline framework for
+  work between a human and an AI: a fixed order of checks you put to a
+  decision before you act on it, covering whether the consequence is
+  reversible or irreversible, a framework gate of eight named principles with
+  a binary verdict, a review of five questions answered in sentences, and a
+  required statement of the limits of this assessment. It carries no scores, no
+  percentages and no confidence values — every answer names the party it
+  concerns, and the result is written down.
+keywords:
+  - decision making
+  - human-AI collaboration
+  - AI ethics
+  - AI governance
+  - accountability
+  - irreversibility
+  - applied ethics
+  - decision framework
+# date-released: <!-- TO BE COMPLETED BY THE AUTHOR -->
+# repository-code: <!-- TO BE COMPLETED BY THE AUTHOR -->
