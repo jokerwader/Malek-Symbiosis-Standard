@@ -26,7 +26,7 @@ Report privately only if openness would hurt somebody:
 - a file in this repository that is not what it says it is;
 - a problem with the repository or the account behind it.
 
-**Contact:** <!-- TO BE COMPLETED BY THE AUTHOR -->
+**Contact:** malek@fifo.com.pl
 
 **Suggested channel:** turn on GitHub Security Advisories for this repository (Security tab, "Report a vulnerability"). It gives reporters a private route that does not depend on publishing an email address anywhere.
 
