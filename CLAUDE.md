@@ -44,7 +44,7 @@ Polski i angielski są **oba kanoniczne** i oba muszą mówić to samo. Poprawka
 
 Commit lokalny jest w porządku, jeśli o niego poproszono. Wypchnięcie — nie.
 
-**Nie kasujesz bezpowrotnie.** Plik, który ma zniknąć, przenosisz do `_private/`, a nie usuwasz.
+**Nie kasujesz bezpowrotnie.** Plik, który ma zniknąć, przenosisz poza to repozytorium — do katalogu roboczego autora — a nie usuwasz. Autor powie gdzie.
 
 ---
 
