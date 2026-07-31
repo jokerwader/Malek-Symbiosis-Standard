@@ -28,7 +28,7 @@ Prywatnie zgłaszaj wyłącznie wtedy, gdy jawność komuś zaszkodzi:
 - plik w tym repozytorium, który nie jest tym, za co się podaje;
 - problem z samym repozytorium albo z kontem, które za nim stoi.
 
-**Kontakt:** <!-- DO UZUPEŁNIENIA PRZEZ AUTORA -->
+**Kontakt:** malek@fifo.com.pl
 
 **Proponowany kanał:** włącz w tym repozytorium GitHub Security Advisories (zakładka Security, „Report a vulnerability"). Daje zgłaszającym prywatną drogę, która nie wymaga publikowania nigdzie adresu e-mail.
 
