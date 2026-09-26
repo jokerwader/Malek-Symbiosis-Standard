@@ -34,7 +34,7 @@ Jeśli zostawiłeś siedem i jedną odrzuciłeś, albo zostawiłeś bramkę syst
 
 Powiedz, których części nie wziąłeś. **Nikt cię przez to gorzej nie oceni** — wdrożenie częściowe jest normalne i lepiej je opisać, niż ukryć.
 
-**Nie ma zgodności częściowej ani procentu zgodności.** Bramka systemu daje tylko dwa wyniki i twierdzenie o niej też jest zerojedynkowe.
+**Nie ma zgodności częściowej ani procentu zgodności.** Bramka systemu jest w tym frameworku zerojedynkowa i twierdzenie o niej też jest zerojedynkowe.
 
 ### Lista kontrolna zgodności
 

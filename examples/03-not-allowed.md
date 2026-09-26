@@ -4,7 +4,7 @@
 
 ---
 
-**This example shows why the entire MSS system exists.**
+**This is the example the whole framework exists for.**
 
 Everything about the decision below is attractive. The revenue is real, the lawyers have cleared it, the control is clean, and the review is the strongest of the three examples.
 

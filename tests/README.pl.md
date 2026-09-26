@@ -52,7 +52,7 @@ Część wariantów zmienia rzecz, która **znaczenia mieć nie powinna**: imię
 
 Każdy scenariusz przynosi konkretna osoba z konkretnym interesem. **Te osoby chcą tego, o co proszą.** Żadna nie jest złoczyńcą i żadna nie przynosi decyzji, która wygląda źle na pierwszy rzut oka.
 
-Decyzje, które przechodzą przez system MSS, a nie powinny, nigdy nie są tymi oczywiście złymi. Są rozsądne, opłacalne i pilne.
+Decyzje, które przechodzą przez framework, a nie powinny, nigdy nie są tymi oczywiście złymi. Są rozsądne, opłacalne i pilne.
 
 ---
 
@@ -138,7 +138,7 @@ To jest jedyne miejsce, w którym twój własny osąd wchodzi do pomiaru — i w
 
 ## Czego ten zestaw nie mierzy
 
-**Nie mierzy, czy MSS jest dobrym systemem oceny decyzji.** Mierzy, czy jest jednoznaczny i czy modele go wykonują.
+**Nie mierzy, czy MSS jest dobrym frameworkiem.** Mierzy, czy jest jednoznaczny i czy modele go wykonują.
 
 **Nie mierzy zachowania w prawdziwej pracy.** Scenariusz podany w oknie czatu to nie to samo co decyzja podejmowana pod presją, w środku dnia, przez człowieka, który już wie, co chce zrobić.
 

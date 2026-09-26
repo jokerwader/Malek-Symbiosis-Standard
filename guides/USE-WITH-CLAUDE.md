@@ -14,7 +14,7 @@ It works with Claude. It should work with any model that follows a system instru
 |-------|--------|--------------|
 | **A. Claude Project** | 2 min, once | Every chat in that project runs MSS. Best if you want to use it for real. |
 | **B. One chat** | 30 seconds | MSS for this conversation only. Best for trying it out. |
-| **C. An agent working in a repository** | 2 min, once | MSS runs while the agent works in the repository. |
+| **C. Claude Code** | 2 min, once | MSS runs on decisions in a repository. |
 
 ---
 
@@ -127,9 +127,9 @@ A deliberate override stays in the record. A skipped check does not. That is the
 
 ---
 
-## C. An agent working in a repository
+## C. Claude Code
 
-Create an `AGENT.md` file at the repository root. Paste the complete standard first, followed by the complete `standard/AGENT.md`. Tools that support repository instructions will then apply MSS to decisions made while working in that repository.
+Put both files into `CLAUDE.md` at the root of the repository — the standard first, then `AGENT.md`. MSS will then run on decisions taken in that repository.
 
 It is worth narrowing the trigger to what actually matters there. Add a line of your own, for example: *"Run MSS on anything that changes production, touches customer data, or goes out to a third party. Do not run it on ordinary code changes."*
 
@@ -165,7 +165,7 @@ Section 8.2 of the standard sets one condition before you let a model act withou
 
 > Put ten decisions to it that **should not** pass. If even one passed — you do not increase its autonomy.
 
-That test is worth running before you trust this in anything real. Build the ten decisions out of your own work, not out of extreme cases. The ones that get through MSS are never the obviously bad ones.
+That test is worth running before you trust this in anything real. Build the ten decisions out of your own work, not out of extreme cases. The ones that get through a framework are never the obviously bad ones.
 
 If you run it, [send the result](../CONTRIBUTING.md) — particularly the ones that got through. A decision that passes the gate and should not have is the most useful thing anybody can send this project.
 
@@ -179,4 +179,4 @@ If you run it, [send the result](../CONTRIBUTING.md) — particularly the ones t
 
 **You can always open a new chat.** Nothing here stops you starting again without the instruction. MSS gives no guarantee; it makes cheating harder and leaves a record. In a chat, it leaves that record only if you keep it.
 
-**One conversation, one assessment.** If the decision changes shape mid-conversation, it is a new decision. Assess it again. The most common way around a system like this is to get an "allowed" for one thing and then do a slightly different one.
+**One conversation, one assessment.** If the decision changes shape mid-conversation, it is a new decision. Assess it again. The most common way round any framework is to get an "allowed" for one thing and then do a slightly different one.

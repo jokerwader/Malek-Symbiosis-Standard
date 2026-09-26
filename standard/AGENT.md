@@ -16,7 +16,7 @@ Those are two different things and you need both. The standard without this file
 
 Paste **both files whole** as a system instruction. The standard first, then this file. Where depends on your tool:
 
-- in a tool that supports repository instructions — into an `AGENT.md` file at the repository root,
+- in Claude Code — into the `CLAUDE.md` file,
 - in Claude Projects — into the project instructions,
 - in an ordinary chat window — as the first message.
 

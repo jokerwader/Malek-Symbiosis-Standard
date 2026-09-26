@@ -16,7 +16,7 @@ To są dwie różne rzeczy i potrzebujesz obu. Standard bez tego pliku daje mode
 
 Wklej **oba pliki w całości** jako instrukcję systemową. Najpierw standard, potem ten plik. Miejsce zależy od narzędzia:
 
-- w narzędziu obsługującym instrukcje repozytorium — do pliku `AGENT.md` w katalogu głównym,
+- w Claude Code — do pliku `CLAUDE.md`,
 - w Claude Projects — do instrukcji projektu,
 - w zwykłym oknie czatu — jako pierwsza wiadomość.
 

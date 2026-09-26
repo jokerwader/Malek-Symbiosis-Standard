@@ -14,7 +14,7 @@ Działa z Claude. Powinno działać z każdym modelem, który wykonuje instrukcj
 |--------|--------|--------------|
 | **A. Projekt w Claude** | 2 minuty, raz | Każda rozmowa w tym projekcie działa pod MSS. Najlepsze, gdy chcesz używać na serio. |
 | **B. Jedna rozmowa** | 30 sekund | MSS tylko w tej rozmowie. Najlepsze do sprawdzenia. |
-| **C. Agent pracujący w repozytorium** | 2 minuty, raz | MSS działa podczas pracy w repozytorium. |
+| **C. Claude Code** | 2 minuty, raz | MSS działa na decyzjach w repozytorium. |
 
 ---
 
@@ -127,9 +127,9 @@ Jeśli mimo to podtrzymam polecenie, nie wykonuj po cichu i nie zmieniaj werdykt
 
 ---
 
-## C. Agent pracujący w repozytorium
+## C. Claude Code
 
-Utwórz plik `AGENT.md` w katalogu głównym repozytorium. Wklej do niego najpierw cały standard, a pod nim cały plik `AGENT.pl.md`. Narzędzia obsługujące instrukcje repozytorium będą wtedy stosować MSS do decyzji podejmowanych podczas pracy w tym repozytorium.
+Wrzuć oba pliki do `CLAUDE.md` w katalogu głównym repozytorium — najpierw standard, potem `AGENT.pl.md`. MSS zadziała wtedy na decyzjach podejmowanych w tym repozytorium.
 
 Warto zawęzić wyzwalacz do tego, co tam faktycznie ma znaczenie. Dopisz własne zdanie, na przykład: *„Uruchamiaj MSS przy wszystkim, co zmienia produkcję, dotyka danych klientów albo wychodzi do osoby trzeciej. Nie uruchamiaj przy zwykłych zmianach w kodzie."*
 
@@ -165,7 +165,7 @@ Punkt 8.2 standardu stawia jeden warunek, zanim pozwolisz modelowi działać bez
 
 > Podsuń mu dziesięć decyzji, które **nie powinny** przejść. Jeśli choć jedna przeszła — nie zwiększasz samodzielności.
 
-Warto ten test przejść, zanim zaufasz temu w czymkolwiek prawdziwym. Zbuduj te dziesięć decyzji z własnej roboty, a nie z przypadków skrajnych. Przez system MSS nie przechodzą te oczywiście złe.
+Warto ten test przejść, zanim zaufasz temu w czymkolwiek prawdziwym. Zbuduj te dziesięć decyzji z własnej roboty, a nie z przypadków skrajnych. Przez framework nigdy nie przechodzą te oczywiście złe.
 
 Jeśli go przeprowadzisz — [prześlij wynik](../CONTRIBUTING.md), a szczególnie te, które przeszły. Decyzja, która przechodzi przez bramkę, a nie powinna, jest najbardziej wartościową rzeczą, jaką ktokolwiek może temu projektowi przysłać.
 
@@ -179,4 +179,4 @@ Jeśli go przeprowadzisz — [prześlij wynik](../CONTRIBUTING.md), a szczególn
 
 **Zawsze możesz otworzyć nowy czat.** Nic tutaj nie powstrzyma cię przed zaczęciem od nowa bez tej instrukcji. MSS nie daje gwarancji; sprawia, że oszukać jest trudniej, i zostawia zapis. W czacie zostawia go tylko wtedy, gdy sam go zachowasz.
 
-**Jedna rozmowa, jedna ocena.** Jeśli decyzja zmieni w trakcie kształt, jest nową decyzją. Oceń ją jeszcze raz. Najczęstszy sposób obejścia takiego systemu to dostać „wolno" na jedno, a zrobić coś nieco innego.
+**Jedna rozmowa, jedna ocena.** Jeśli decyzja zmieni w trakcie kształt, jest nową decyzją. Oceń ją jeszcze raz. Najczęstsza droga obejścia każdego frameworka to dostać „wolno" na jedno, a zrobić coś nieco innego.

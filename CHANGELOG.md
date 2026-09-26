@@ -17,11 +17,6 @@ Each entry uses the words that were in force in the version it describes. Where 
 - **[STANDARD.md](standard/STANDARD.md) and [STANDARD.pl.md](standard/STANDARD.pl.md).** The full specification: the four mechanisms, consequence, the framework gate, review, flags, verdict, the record, refusal, the two general rules, and what this does not solve. This is the canonical text, and this is what gets pasted into a model.
 - **Polish versions of everything a reader reads:** [DIAGRAMS.pl.md](guides/DIAGRAMS.pl.md), [NAME-USAGE.pl.md](guides/NAME-USAGE.pl.md), [SECURITY.pl.md](SECURITY.pl.md), [CONTRIBUTING.pl.md](CONTRIBUTING.pl.md), and all four files in `examples/`. The mermaid diagrams were translated label by label and re-validated: 4 blocks, 0 failures, in both languages, at identical line numbers.
 
-### Changed — 18 September 2026
-
-- **The root `CLAUDE.md` file is now named `AGENT.md`.** The repository instruction is no longer described as a Claude Code-only file. Claude, ChatGPT, Cline, and other tools that read repository instructions can use the same file. Its contents now use complete sentences and plain language. The MSS rules have not changed.
-- **The setup guides now point to the root `AGENT.md` file.** Users paste the standard first and the executable `standard/AGENT.md` file below it.
-
 ### Changed
 
 - **The README is now the front page and nothing else.** It answers four questions in order — what this is, where it came from, what it is for, and how it works — and then points at the file that carries the rules. It carries one complete short record so a reader can see the output without reading the specification, and a table saying which file is for whom.
