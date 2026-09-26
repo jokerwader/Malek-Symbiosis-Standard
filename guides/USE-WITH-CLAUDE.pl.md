@@ -22,12 +22,12 @@ Działa z Claude. Powinno działać z każdym modelem, który wykonuje instrukcj
 
 1. Załóż nowy Projekt.
 2. Otwórz instrukcje projektu.
-3. Wklej całość [STANDARD.pl.md](../standard/STANDARD.pl.md), a pod spodem całość [AGENT.pl.md](../standard/AGENT.pl.md).
+3. Wklej całość [STANDARD.pl.md](../standard/STANDARD.pl.md), a pod spodem całość [MODEL-INSTRUCTION.pl.md](../standard/MODEL-INSTRUCTION.pl.md).
 4. Zapisz.
 
 Każda rozmowa w tym projekcie działa teraz pod MSS.
 
-**Dlaczego oba pliki:** standard mówi, czym MSS jest. `AGENT.pl.md` mówi, kiedy go uruchomić bez pytania i co zrobić. Sam standard daje model, który zna zasady, ale czeka, aż go poprosisz. Sam `AGENT.pl.md` nie działa, bo zasady stoją w standardzie.
+**Dlaczego oba pliki:** standard mówi, czym MSS jest. `MODEL-INSTRUCTION.pl.md` mówi, kiedy go uruchomić bez pytania i co zrobić. Sam standard daje model, który zna zasady, ale czeka, aż go poprosisz. Sam `MODEL-INSTRUCTION.pl.md` nie działa, bo zasady stoją w standardzie.
 
 ---
 
@@ -129,7 +129,7 @@ Jeśli mimo to podtrzymam polecenie, nie wykonuj po cichu i nie zmieniaj werdykt
 
 ## C. Claude Code
 
-Wrzuć oba pliki do `CLAUDE.md` w katalogu głównym repozytorium — najpierw standard, potem `AGENT.pl.md`. MSS zadziała wtedy na decyzjach podejmowanych w tym repozytorium.
+Dodaj `STANDARD.pl.md` i `MODEL-INSTRUCTION.pl.md` do instrukcji repozytorium w sposób obsługiwany przez używane narzędzie. Wymagana nazwa pliku i sposób konfiguracji różnią się między narzędziami.
 
 Warto zawęzić wyzwalacz do tego, co tam faktycznie ma znaczenie. Dopisz własne zdanie, na przykład: *„Uruchamiaj MSS przy wszystkim, co zmienia produkcję, dotyka danych klientów albo wychodzi do osoby trzeciej. Nie uruchamiaj przy zwykłych zmianach w kodzie."*
 
