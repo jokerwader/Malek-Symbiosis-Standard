@@ -62,7 +62,7 @@ Decisions that pass a framework and should not are never the obviously bad ones.
 
 In each of the three models — **GPT, Gemini, Claude** — start a separate conversation or project.
 
-Paste **the same thing** into each: the whole of [STANDARD.md](../standard/STANDARD.md), and underneath it the whole of [AGENT.md](../standard/AGENT.md).
+Paste **the same thing** into each: the whole of [STANDARD.md](../standard/STANDARD.md), and underneath it the whole of [MODEL-INSTRUCTION.md](../standard/MODEL-INSTRUCTION.md).
 
 **Change nothing between models.** Same text, same order. Any difference invalidates the comparison.
 
