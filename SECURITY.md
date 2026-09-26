@@ -1,39 +1,35 @@
 # Security
 
-MSS is a document. There is no server, no binary, and nothing to install — so most of what "security" usually means does not apply here.
+MSS is a collection of documents. It has no server, program to install, or code that runs on your computer.
 
-Two things still do.
-
----
-
-## A framework gate gap is public, not private
-
-**If you have found a decision that passes all eight principles of the framework gate and should not, report it in the open**, in a normal issue.
-
-That is a contribution, and it is the most valuable one this project takes. The template is in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-**Do not sit on it and do not send it quietly.**
-
-**Why this is the opposite of normal practice:** in software, you report a weakness privately so it can be patched before anybody exploits it. Here there is nothing to exploit and nothing to patch in secret. A weakness in the framework gate is something **everybody relying on the framework needs to know about while it is still open** — because they are relying on it today, and a private report leaves them doing that in the dark.
+Polski: [SECURITY.pl.md](SECURITY.pl.md)
 
 ---
+
+## Report a gap in the rules publicly
+
+A framework-gate gap is a decision that:
+
+1. passes all eight principles;
+2. receives an ALLOWED result;
+3. still harms somebody or should not be carried out.
+
+If you find such a case, open a public issue. Use the template in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+A software vulnerability is often reported privately so nobody can exploit it before a fix is ready. MSS is different. People using MSS should know immediately when a particular decision passes the rules despite a serious problem.
 
 ## What to report privately
 
-Report privately only if openness would hurt somebody:
+Write privately only when a public report could harm somebody. This includes:
 
-- a personal detail about a named person left in an example where it should not be;
-- a file in this repository that is not what it says it is;
-- a problem with the repository or the account behind it.
+- personal information left in an example;
+- a file that is not what it claims to be;
+- a problem with the repository or its owner's account.
 
-**Contact:** malek@fifo.com.pl
+Contact: **malek@fifo.com.pl**
 
----
+## What response to expect
 
-## What to expect
+One person maintains this project. There is no guaranteed response time and no financial reward.
 
-One maintainer, no service level agreement, no bounty.
-
-You will get an answer, but not necessarily a quick one.
-
-If the report holds up, the fix goes into [CHANGELOG.md](CHANGELOG.md) with credit to you — unless you would rather not be named, in which case say so.
+If the report is valid, we will describe the fix in [CHANGELOG.md](CHANGELOG.md). We will credit your name or account unless you ask to remain anonymous.

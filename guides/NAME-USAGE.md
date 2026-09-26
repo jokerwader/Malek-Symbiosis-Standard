@@ -1,87 +1,57 @@
-# Using the name
+# How to use the MSS name
 
-The **text** of MSS is under CC BY-SA 4.0 — take it, change it, sell it. See [LICENSE.md](../LICENSE.md).
+**Version 4.5.0.** Polish: [NAME-USAGE.pl.md](NAME-USAGE.pl.md).
 
-The **name** is a separate matter, and this file is the whole of it.
-
-**There is one reason for these rules.** A reader who sees "MSS" on your work should be able to tell what they are getting without reading your work first. If the name means anything anybody wants, it means nothing.
+This document explains how to describe a project that uses MSS.
 
 ---
 
-## 1. What the name points to
+## What MSS means
 
-"Malek Symbiosis Standard" and "MSS" point to the canonical specification in this repository: [STANDARD.md](../standard/STANDARD.md) in English and [STANDARD.pl.md](../standard/STANDARD.pl.md) in Polish.
+The names “Malek Symbiosis Standard” and “MSS” refer to two official versions of the standard:
 
-The two say the same thing in two languages. **There is no third canonical text.**
+- [STANDARD.md](../standard/STANDARD.md) in English;
+- [STANDARD.pl.md](../standard/STANDARD.pl.md) in Polish.
 
-Use the name to refer to that. If you are naming your own product, your own method, or your own house rules — use your own name.
+Both files must have the same meaning.
 
----
+## When you may say “MSS-compliant”
 
-## 2. When you may say "MSS-compliant"
+You may use **“MSS-compliant”** only when the implementation meets every requirement below:
 
-Say **MSS-compliant** only when you have implemented all eight principles of the framework gate, without exceptions.
+1. it checks all eight framework-gate principles for every decision covered by MSS;
+2. each principle can produce NOT ALLOWED on its own;
+3. nothing can change NOT ALLOWED into ALLOWED;
+4. it classifies reversible and irreversible consequences as the standard requires;
+5. it performs the review, records flags, and sets a return date or event;
+6. it records the verdict and the limits of the assessment;
+7. an ALLOWED result names the principle closest to closing the gate;
+8. an irreversible consequence includes an unfavourable description written as the standard requires;
+9. it keeps the required decision record;
+10. it has no exception that bypasses any of these requirements.
 
-**All eight, or you do not use the word.**
+There is no “partial MSS compliance” and no percentage of compliance.
 
-If you kept seven and dropped one, or kept the framework gate and dropped the written record, the honest description is:
+## How to describe partial use
 
-- **"inspired by MSS"**, or
-- **"based on MSS"**, or
-- **"adapted from MSS"**.
+If you use only part of MSS, write:
 
-Say which parts you left out. **Nobody will think less of you for it** — partial adoption is normal, and it is better described than hidden.
+> Based on the Malek Symbiosis Standard, with these changes: [list].
 
-**There is no partial compliance and no percentage of compliance.** The framework gate is binary in the framework, and the claim about it is binary too.
+Partial use is not a defect. A clear description is better than an incorrect claim of full compliance.
 
-### The compliance checklist
+## How to describe your own version
 
-Run this before you use the word. **Every line has to be yes.**
+You may copy and change the text under [CC BY-SA 4.0](../LICENSE.md). You must:
 
-All eight principles are checked on every consequence, each one can close the framework gate on its own, and nothing overrides a closed gate.
+1. credit the original author;
+2. keep the same licence;
+3. list your changes where readers will see them before using your version;
+4. give your version its own name.
 
-- [ ] **Who feels it** — you list the parties and mark who agreed, who knows and disagrees, and who knows nothing. Real harm to either of the last two closes the gate. A party is a human being: the consent of an institution is not the consent of the people behind it.
-- [ ] **Can they refuse** — for each party you write one sentence saying what happens to them if they say no. If refusing costs them more than agreeing, the gate is closed, however fully the harm was disclosed.
-- [ ] **Who answers for it** — a name or a role carries it, and where the consequence is irreversible a named human agrees before it happens. Silence is not agreement.
-- [ ] **Is it true** — nobody is told something untrue, nothing that would change their decision is held back, and everybody knows whether they are dealing with a human or an AI.
-- [ ] **Where is the catch** — you tell the other side the whole thing to the end, and it still works.
-- [ ] **Should we** — "we can" and "it pays" are not enough on their own, and alongside your own justification there is an unfavourable description, from the facts of this decision and inventing nothing, written by somebody other than you if there is anybody you can ask — and working with an AI there always is.
-- [ ] **Do we keep our word** — departures from your own agreements and values are said out loud and agreed again.
-- [ ] **What if it repeats** — you work out a hundred times, and other people doing the same, and who pays for it and how fast.
+Do not call a changed version “official MSS” or give it the next MSS version number. Those names suggest that the standard's author approved the text.
 
-**And two more, because the eight do not hold without them.**
+## Short answer
 
-- [ ] **The result is written down.** Not in somebody's head, and not "we thought about it." The record carries:
-
-  | Always | On every ALLOWED | On an irreversible consequence |
-  |--------|------------------|-------------------------------|
-  | the decision | `closest to closing:` — one principle, one named party | `Consequences:` from the review — the cost of undoing and who carries it |
-  | the consequence | | `unfavourable description [who wrote it]:` — with the author named |
-  | the framework gate line | | |
-  | the verdict | | |
-
-- [ ] **The limits of this assessment are there** — what you did not check, what you do not know, what you assumed. With an irreversible consequence, an assessment with no limits section is not valid.
-
-**A "no" anywhere on this list means "inspired by MSS".** It does not mean MSS-compliant.
-
----
-
-## 3. Forks
-
-**You may fork it.** CC BY-SA 4.0 says so and this file does not take it back.
-
-Three things come with it:
-
-**Say what you changed.** A plain list of the differences against the canonical text, somewhere a reader will find it before they rely on your version.
-
-**Do not present your fork as the canon.** Not "the official MSS", not "MSS 4.5", not a version number that reads like the next one. Version numbers belong to the canonical text. Give your fork a name of its own and say what it is derived from.
-
-**Keep the licence and the credit.** CC BY-SA 4.0, and Mateusz Małek named as the author of the work you started from.
-
-A fork that does all three is welcome, and **there is no need to ask permission for it.**
-
----
-
-## If you are not sure
-
-Ask before you publish, not after. Open an issue — see [CONTRIBUTING.md](../CONTRIBUTING.md).
+- Every requirement is met: **“MSS-compliant”**.
+- Some requirements are missing or changed: **“based on MSS”** followed by a list of differences.

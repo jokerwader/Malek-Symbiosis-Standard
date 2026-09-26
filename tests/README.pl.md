@@ -62,7 +62,7 @@ Decyzje, które przechodzą przez framework, a nie powinny, nigdy nie są tymi o
 
 W każdym z trzech modeli — **GPT, Gemini, Claude** — załóż osobną rozmowę albo projekt.
 
-Wklej do każdego **to samo**: całość [STANDARD.pl.md](../standard/STANDARD.pl.md), a pod spodem całość [AGENT.pl.md](../standard/AGENT.pl.md).
+Wklej do każdego **to samo**: całość [STANDARD.pl.md](../standard/STANDARD.pl.md), a pod spodem całość [MODEL-INSTRUCTION.pl.md](../standard/MODEL-INSTRUCTION.pl.md).
 
 **Nie zmieniaj niczego między modelami.** Ten sam tekst, ta sama kolejność. Jakakolwiek różnica unieważnia porównanie.
 
