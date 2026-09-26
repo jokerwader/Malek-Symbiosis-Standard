@@ -1,4 +1,4 @@
-# CLAUDE.md — praca w tym repozytorium
+# CLAUDE.md — praca w repozytorium Malek-Symbiosis-Standard
 
 Ten plik jest instrukcją dla Claude Code pracującego w repozytorium Malek Symbiosis Standard. Czytasz go na początku każdej sesji.
 
@@ -8,9 +8,9 @@ Ten plik jest instrukcją dla Claude Code pracującego w repozytorium Malek Symb
 
 ## Czym jest to repozytorium
 
-To jest **specyfikacja, a nie oprogramowanie.** Nie ma tu kodu do uruchomienia, testów jednostkowych ani zależności. Są dokumenty w markdown, w dwóch językach, opisujące zestaw zasad oceny decyzji.
+Repozytorium jest **instukcją, a nie oprogramowaniem.** Nie ma tu kodu do uruchomienia, testów jednostkowych ani zależności. Dokumenty zostały przygotowane jako markdown, w dwóch językach (EN/PL), opisujące zestawy zasad do oceny decyzji użytkownika.
 
-Skutkiem tego jest jedna rzecz, o której trzeba pamiętać przy każdej zmianie: **tekst jest tu produktem.** Zmiana słowa nie jest kosmetyką. Zmiana słowa w tym repozytorium zmienia to, co ludzie robią z decyzjami, które kogoś dotkną.
+Skutkiem zapytania, o którym trzeba pamiętać przy każdej zmianie: **tekst jako produkt.**. Repozytorium sprawdza to, co człowiek robi z decyzjami, które kogoś dotkną.
 
 ---
 
