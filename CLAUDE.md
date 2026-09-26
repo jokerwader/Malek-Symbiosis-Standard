@@ -223,18 +223,6 @@ Who feels it · Can they refuse · Who answers for it · Is it true · Where is 
 
 ---
 
-## Znane rzeczy otwarte
-
-Nie naprawiaj ich po cichu. Każda wymaga decyzji autora.
-
-**Pola `DO UZUPEŁNIENIA PRZEZ AUTORA`** — daty wydań w obu changelogach, `date-released` i `repository-code` w `CITATION.cff`, kontakt bezpieczeństwa w `SECURITY`, akapit o genezie w `README`. Nie zgaduj ich.
-
-**`examples/02` ma werdykt WOLNO, którego standard może nie utrzymywać.** Dopisany tam opis nieprzychylny umieszcza w różnicy szkodę, której kierowcy nie wybrali — a rozdział 2 standardu mówi, że taka różnica daje NIE WOLNO. Do rozstrzygnięcia: złagodzić opis, dopisać do reguły wyjątek o fladze `[przed]`, albo zmienić werdykt przykładu.
-
-**Test z punktu 8.2 standardu nie został przeprowadzony.** Standard wymaga podsunięcia modelowi dziesięciu decyzji, które nie powinny przejść, zanim zwiększy się jego samodzielność. Sam framework tego testu nigdy nie przeszedł.
-
----
-
 ## Format raportu z pracy
 
 Na koniec sesji podaj:
