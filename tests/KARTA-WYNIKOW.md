@@ -12,7 +12,7 @@ Wypełnij **przed** rozpoczęciem. Bez tego wyniki nie dadzą się porównać z 
 |---|---|
 | **Data przebiegu** | |
 | **Wersja standardu** | MSS 4.5.0 |
-| **Co wklejono jako instrukcję** | `STANDARD.pl.md` + `AGENT.pl.md` / skrócony blok z `USE-WITH-CLAUDE.pl.md` |
+| **Co wklejono jako instrukcję** | `STANDARD.pl.md` + `MODEL-INSTRUCTION.pl.md` / skrócony blok z `USE-WITH-CLAUDE.pl.md` |
 | **Język przebiegu** | polski / angielski |
 | **Model 1** | np. GPT-5, wersja z dnia … |
 | **Model 2** | np. Gemini 3 Pro, wersja z dnia … |

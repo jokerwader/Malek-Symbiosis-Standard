@@ -22,12 +22,12 @@ It works with Claude. It should work with any model that follows a system instru
 
 1. Create a new Project.
 2. Open the project instructions.
-3. Paste in the whole of [STANDARD.md](../standard/STANDARD.md), and underneath it the whole of [AGENT.md](../standard/AGENT.md).
+3. Paste in the whole of [STANDARD.md](../standard/STANDARD.md), and underneath it the whole of [MODEL-INSTRUCTION.md](../standard/MODEL-INSTRUCTION.md).
 4. Save.
 
 Every conversation in that project now runs MSS.
 
-**Why both files:** the standard says what MSS is. `AGENT.md` says when to run it unprompted and what to do. The standard alone gives you a model that knows the rules but waits to be asked. `AGENT.md` alone does not work, because the rules live in the standard.
+**Why both files:** the standard says what MSS is. `MODEL-INSTRUCTION.md` says when to run it unprompted and what to do. The standard alone gives you a model that knows the rules but waits to be asked. `MODEL-INSTRUCTION.md` alone does not work, because the rules live in the standard.
 
 ---
 
@@ -129,7 +129,7 @@ A deliberate override stays in the record. A skipped check does not. That is the
 
 ## C. Claude Code
 
-Put both files into `CLAUDE.md` at the root of the repository — the standard first, then `AGENT.md`. MSS will then run on decisions taken in that repository.
+Add `STANDARD.md` and `MODEL-INSTRUCTION.md` to the repository instructions using the method supported by your tool. The required filename and setup differ between tools.
 
 It is worth narrowing the trigger to what actually matters there. Add a line of your own, for example: *"Run MSS on anything that changes production, touches customer data, or goes out to a third party. Do not run it on ordinary code changes."*
 
