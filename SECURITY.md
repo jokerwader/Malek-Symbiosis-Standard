@@ -28,8 +28,6 @@ Report privately only if openness would hurt somebody:
 
 **Contact:** malek@fifo.com.pl
 
-**Suggested channel:** turn on GitHub Security Advisories for this repository (Security tab, "Report a vulnerability"). It gives reporters a private route that does not depend on publishing an email address anywhere.
-
 ---
 
 ## What to expect
