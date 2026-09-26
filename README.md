@@ -124,7 +124,7 @@ Three full examples, with a line-by-line commentary, are in [examples/](examples
 | File | Who for | What is in it |
 |------|---------|---------------|
 | **[STANDARD.md](standard/STANDARD.md)** | implementers, and AI | **All the rules.** The full specification: consequence, the eight principles, review, flags, verdict, record. |
-| [AGENT.md](standard/AGENT.md) | AI | When a model runs the assessment unprompted, and what to ask before it does. |
+| [MODEL-INSTRUCTION.md](standard/MODEL-INSTRUCTION.md) | AI | When a model runs the assessment unprompted, and what to ask before it does. |
 | [USE-WITH-CLAUDE.md](guides/USE-WITH-CLAUDE.md) | you, right now | How to get it running in a chat window. Two minutes. |
 | [examples/](examples/) | anybody | Three full assessments with commentary. |
 | [DIAGRAMS.md](guides/DIAGRAMS.md) | visual readers | Four diagrams of the procedure. |

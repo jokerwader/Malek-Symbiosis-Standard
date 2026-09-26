@@ -1,8 +1,8 @@
-# AGENT.md — MSS for the model
+# MODEL-INSTRUCTION.md — MSS for the model
 
 **Version 4.5.0. By Mateusz Małek.**
 
-Polish: [AGENT.pl.md](AGENT.pl.md). The standard itself: [STANDARD.md](STANDARD.md).
+Polish: [MODEL-INSTRUCTION.pl.md](MODEL-INSTRUCTION.pl.md). The standard itself: [STANDARD.md](STANDARD.md).
 
 ---
 
@@ -16,7 +16,7 @@ Those are two different things and you need both. The standard without this file
 
 Paste **both files whole** as a system instruction. The standard first, then this file. Where depends on your tool:
 
-- in Claude Code — into the `CLAUDE.md` file,
+- in a repository agent — add both files through the repository-instruction mechanism supported by that tool,
 - in Claude Projects — into the project instructions,
 - in an ordinary chat window — as the first message.
 

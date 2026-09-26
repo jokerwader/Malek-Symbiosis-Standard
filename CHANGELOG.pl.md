@@ -23,6 +23,10 @@ Format według [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), wersjon
 
 ### Zmienione
 
+- **Instrukcją repozytorium jest teraz angielski, niezależny od narzędzia główny plik `AGENT.md`.** Plik informuje, że każde narzędzie wymaga własnej konfiguracji, zamiast obiecywać automatyczne wykrywanie jednej nazwy. Język odpowiedzi wybiera pojedynczy komentarz na początku pliku.
+- **Pliki wykonawcze MSS nazywają się teraz `standard/MODEL-INSTRUCTION.md` i `standard/MODEL-INSTRUCTION.pl.md`.** Dzięki temu w repozytorium jest tylko jeden plik o nazwie `AGENT.md`, a instrukcja repozytorium nie myli się z instrukcją MSS.
+- **Kontrole repozytorium sprawdzają teraz oba pliki Mermaid, odróżniają obecność pary plików od zgodności tłumaczenia, pomijają historyczne wersje z changelogów i pozwalają używać emotikonów.**
+
 - **README jest teraz wizytówką i niczym więcej.** Odpowiada po kolei na cztery pytania — czym to jest, skąd się wzięło, po co jest i jak działa — a potem wskazuje plik, który niesie zasady. Zawiera jeden kompletny krótki zapis, żeby czytelnik zobaczył wynik bez czytania specyfikacji, oraz tabelę mówiącą, który plik jest dla kogo.
 - **README mówi, skąd MSS się wziął.** Nic w repozytorium wcześniej tego nie mówiło. Punktacja, od której projekt wziął starą nazwę, została usunięta, bo pozwalała nadrobić niską ocenę etyczną wysoką oceną biznesową — a to jest dokładnie ta arytmetyka, której framework ma odmawiać. Jeden akapit osobistego kontekstu jest oznaczony do uzupełnienia albo wycięcia przez autora.
 - **Każde odwołanie mówiące „rdzeń" mówi teraz „standard"** i wskazuje na `STANDARD.pl.md`, w `AGENT.pl.md`, `USE-WITH-CLAUDE.pl.md`, `DIAGRAMS.pl.md`, `NAME-USAGE.pl.md`, `CONTRIBUTING.pl.md` i we wszystkich `examples/`. `USE-WITH-CLAUDE` każe teraz wkleić `STANDARD.pl.md`, a nie `README.pl.md`.
@@ -31,7 +35,7 @@ Format według [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), wersjon
 
 ### Uwaga o strukturze dwóch plików
 
-Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `AGENT.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `AGENT.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
+Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `MODEL-INSTRUCTION.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `MODEL-INSTRUCTION.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
 
 ---
 
