@@ -28,9 +28,12 @@ Nie możesz samodzielnie ustalać, jak powinna brzmieć nowa zasada ani zmienia�
 
 Jeśli podczas pracy znajdziesz problem, którego rozwiązanie wymaga decyzji o treści zasady:
 
-1. nie zmieniaj tej zasady;
-2. opisz problem w raporcie końcowym;
-3. wskaż, jakiej decyzji autora potrzebujesz.
+1. natychmiast zatrzymaj pracę;
+2. opisz autorowi problem i wskaż, jakiej decyzji potrzebujesz;
+3. zaczekaj na odpowiedź autora;
+4. nie wprowadzaj żadnych dalszych zmian zależnych od nierozstrzygniętej zasady.
+
+Nie wystarczy pominąć samej zasady i zgłosić problem dopiero w raporcie końcowym. Dalsze pliki mogą zależeć od tego rozstrzygnięcia. Ich wcześniejsza zmiana mogłaby utrwalić założenie, którego autor nie zatwierdził.
 
 Aby ustalić, czy możesz wprowadzić zmianę, odpowiedz na pytanie: **czy możesz wskazać istniejące zdanie w standardzie, z którym uzgadniasz dany plik?**
 
@@ -239,7 +242,7 @@ Poniższe określenia mają w projekcie ściśle ustalone znaczenie. Używaj ich
 | najbliżej zamknięcia | closest to closing | obowiązkowy wiersz przy każdym wyniku WOLNO |
 | flaga | flag | zadanie zawierające problem, osobę odpowiedzialną, termin i warunek zamknięcia |
 | `[przed]` / `[potem]` | `[before]` / `[after]` | rodzaj flagi ustalany na podstawie skutku decyzji |
-| ograniczenia tej oceny | limits of this assessment | obowiązkowa część zapisu wskazująca braki wiedzy i sprawdzenia |
+| ograniczenia tej oceny | limits of this assessment | obowiązkowa część zapisu wskazująca założenia, braki wiedzy i informacje, których nie da się sprawdzić przed decyzją |
 | co musiałoby się zmienić | what would have to change | zdanie wymagane przy werdykcie NIE DZIAŁAJ |
 | przegląd | review | pięć pytań o jakość decyzji |
 | werdykt | verdict | DZIAŁAJ, DZIAŁAJ PO ZAMKNIĘCIU FLAG albo NIE DZIAŁAJ |
