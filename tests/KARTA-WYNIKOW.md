@@ -14,7 +14,7 @@ Wypełnij **przed** rozpoczęciem. Bez tego wyniki nie dadzą się porównać z 
 | **Wersja standardu** | MSS 4.5.0 |
 | **Co wklejono jako instrukcję** | Nie podano; odpowiedzi pochodzą z „Niestandardowego Gema” |
 | **Język przebiegu** | angielski |
-| **Model 1** | Gemini — „Niestandardowy Gem”, dokładna wersja niepodana |
+| **Model 1** | Gemini 3.6 — „Niestandardowy Gem”, myślenie rozszerzone |
 | **Model 2** | np. Gemini 3 Pro, wersja z dnia … |
 | **Model 3** | np. Claude Opus 5 |
 | **Sposób podania** | Niestandardowy Gem; szczegóły konfiguracji niepodane |

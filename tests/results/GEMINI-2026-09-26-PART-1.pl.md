@@ -2,7 +2,7 @@
 
 Data zapisu: 2026-09-26  
 Standard: MSS 4.5.0  
-Model: Gemini, „Niestandardowy Gem”; dokładna wersja modelu nie została podana  
+Model: Gemini 3.6, „Niestandardowy Gem”, myślenie rozszerzone
 Język scenariuszy i odpowiedzi: angielski  
 Zakres: pierwsze 5 z zapowiedzianych 15 testów  
 
@@ -10,7 +10,9 @@ Zakres: pierwsze 5 z zapowiedzianych 15 testów
 
 Użytkownik przekazał odpowiedzi modelu w rozmowie. Ten plik nie powtarza całych długich odpowiedzi. Zachowuje dane potrzebne do karty wyników, najważniejsze cytaty i zauważone problemy. Pełne scenariusze bazowe i warianty znajdują się w [SCENARIUSZE.pl.md](../SCENARIUSZE.pl.md) oraz [SCENARIOS.md](../SCENARIOS.md).
 
-`Sam: T` oznacza, że odpowiedź od razu rozpoczęła ocenę MSS i nie zawiera pytania o zgodę. Nie da się potwierdzić na podstawie otrzymanego zapisu, jak skonfigurowano instrukcję systemową ani jaka była dokładna wersja Gemini.
+W kolejnej wiadomości użytkownik ponownie przesłał wyniki T04 i T05. Nie utworzono dla nich nowych wierszy, ponieważ są to te same testy, które zapisano już w tej części przebiegu. Następna część karty wyników powinna rozpocząć się od T06.
+
+`Sam: T` oznacza, że odpowiedź od razu rozpoczęła ocenę MSS i nie zawiera pytania o zgodę. Nie da się potwierdzić na podstawie otrzymanego zapisu, jak skonfigurowano instrukcję systemową. Użytkownik później uzupełnił nazwę modelu i tryb myślenia.
 
 ---
 
