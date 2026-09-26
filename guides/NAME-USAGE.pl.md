@@ -1,89 +1,57 @@
-# Używanie nazwy
+# Jak używać nazwy MSS
 
-**Tekst** MSS jest na licencji CC BY-SA 4.0 — bierz, zmieniaj, sprzedawaj. Zobacz [LICENSE.md](../LICENSE.md).
+**Wersja 4.5.0.** English: [NAME-USAGE.md](NAME-USAGE.md).
 
-**Nazwa** to osobna sprawa i ten plik jest jej całością.
-
-**Jest jeden powód tych reguł.** Czytelnik, który widzi „MSS" przy twojej pracy, powinien umieć powiedzieć, co dostaje, bez czytania twojej pracy. Jeśli nazwa znaczy cokolwiek, kto co chce, to nie znaczy nic.
-
-English: [NAME-USAGE.md](NAME-USAGE.md)
+Ten dokument wyjaśnia, jak opisać projekt korzystający z MSS.
 
 ---
 
-## 1. Na co wskazuje nazwa
+## Co oznacza MSS
 
-„Malek Symbiosis Standard" i „MSS" wskazują na kanoniczną specyfikację w tym repozytorium: [STANDARD.md](../standard/STANDARD.md) po angielsku i [STANDARD.pl.md](../standard/STANDARD.pl.md) po polsku.
+Nazwy „Malek Symbiosis Standard” i „MSS” odnoszą się do dwóch oficjalnych wersji standardu:
 
-Oba mówią to samo w dwóch językach. **Nie ma trzeciego tekstu kanonicznego.**
+- [STANDARD.pl.md](../standard/STANDARD.pl.md) po polsku;
+- [STANDARD.md](../standard/STANDARD.md) po angielsku.
 
-Używaj nazwy, żeby wskazać na to. Jeśli nazywasz własny produkt, własną metodę albo własne zasady u siebie — użyj własnej nazwy.
+Oba pliki muszą mieć to samo znaczenie.
 
----
+## Kiedy wolno napisać „zgodne z MSS”
 
-## 2. Kiedy wolno powiedzieć „zgodne z MSS"
+Możesz użyć określenia **„zgodne z MSS”** tylko wtedy, gdy wdrożenie spełnia wszystkie poniższe warunki:
 
-Powiedz **zgodne z MSS** wyłącznie wtedy, gdy wdrożyłeś wszystkie osiem zasad bramki systemu, bez wyjątków.
+1. sprawdza wszystkie osiem zasad bramki systemu przy każdej decyzji objętej MSS;
+2. każda zasada może samodzielnie dać wynik NIE WOLNO;
+3. nic nie może zmienić wyniku NIE WOLNO na WOLNO;
+4. rozróżnia skutek odwracalny i nieodwracalny zgodnie ze standardem;
+5. wykonuje przegląd, zapisuje flagi i wyznacza termin powrotu do sprawy;
+6. zapisuje werdykt i ograniczenia oceny;
+7. przy wyniku WOLNO zapisuje zasadę najbliższą zamknięcia bramki;
+8. przy skutku nieodwracalnym zapisuje opis nieprzychylny zgodnie ze standardem;
+9. zachowuje wymagany zapis decyzji;
+10. nie dodaje wyjątków pozwalających ominąć którąkolwiek z tych zasad.
 
-**Wszystkie osiem, albo nie używasz tego słowa.**
+Nie istnieje „częściowa zgodność z MSS” ani procent zgodności.
 
-Jeśli zostawiłeś siedem i jedną odrzuciłeś, albo zostawiłeś bramkę systemu i odrzuciłeś zapis, uczciwy opis brzmi:
+## Jak opisać wdrożenie częściowe
 
-- **„zainspirowane MSS"**, albo
-- **„na podstawie MSS"**, albo
-- **„zaadaptowane z MSS"**.
+Jeśli używasz tylko części zasad, napisz:
 
-Powiedz, których części nie wziąłeś. **Nikt cię przez to gorzej nie oceni** — wdrożenie częściowe jest normalne i lepiej je opisać, niż ukryć.
+> Na podstawie Malek Symbiosis Standard, z następującymi zmianami: [lista].
 
-**Nie ma zgodności częściowej ani procentu zgodności.** Bramka systemu jest w tym frameworku zerojedynkowa i twierdzenie o niej też jest zerojedynkowe.
+To nie jest wada. Jasny opis częściowego wdrożenia jest lepszy niż twierdzenie o pełnej zgodności.
 
-### Lista kontrolna zgodności
+## Jak opisać własną wersję
 
-Przejdź ją, zanim użyjesz tego słowa. **Każdy wiersz musi być na „tak".**
+Możesz kopiować i zmieniać tekst zgodnie z [CC BY-SA 4.0](../LICENSE.md). Musisz:
 
-Wszystkie osiem zasad jest sprawdzanych przy każdym skutku, każda z nich może zamknąć bramkę systemu samodzielnie, a zamkniętej bramki nic nie przebija.
+1. podać autora oryginału;
+2. zachować tę samą licencję;
+3. wymienić zmiany w miejscu widocznym przed użyciem twojej wersji;
+4. nadać swojej wersji własną nazwę.
 
-- [ ] **Kto odczuje** — wypisujesz strony i zaznaczasz, kto się zgodził, kto wie i się nie zgadza, a kto nie wie nic. Rzeczywista szkoda przy którymkolwiek z dwóch ostatnich zamyka bramkę. Strona to człowiek: zgoda instytucji nie jest zgodą ludzi za nią stojących.
-- [ ] **Czy mogą odmówić** — przy każdej stronie piszesz jedno zdanie o tym, co się z nią stanie, jeśli powie „nie". Jeśli odmowa kosztuje ją więcej niż zgoda, bramka jest zamknięta, choćby szkoda była w pełni ujawniona.
-- [ ] **Kto odpowiada** — niesie to imię albo rola, a przy skutku nieodwracalnym nazwany człowiek zgadza się przed wykonaniem. Milczenie nie jest zgodą.
-- [ ] **Czy to prawda** — nikomu nie mówi się nieprawdy, nie przemilcza się niczego, co mogłoby zmienić jego decyzję, i każdy wie, czy ma do czynienia z człowiekiem, czy z AI.
-- [ ] **Gdzie jest haczyk** — opowiadasz drugiej stronie całość do końca i to nadal działa.
-- [ ] **Czy powinniśmy** — „możemy" i „opłaca się" same nie wystarczają, a obok twojego uzasadnienia stoi opis nieprzychylny, oparty na faktach z tej decyzji i niczego niezmyślający, napisany przez kogoś innego niż ty, jeśli masz kogo poprosić — a pracując z AI masz zawsze.
-- [ ] **Czy dotrzymujemy słowa** — odejścia od własnych ustaleń i wartości są mówione na głos i uzgadniane na nowo.
-- [ ] **Co, gdy się powtórzy** — liczysz sto razy oraz innych robiących to samo, i sprawdzasz, kto za to płaci i jak szybko.
+Nie nazywaj zmienionej wersji „oficjalnym MSS” ani kolejnym numerem wersji MSS. Takie nazwy sugerują, że tekst został zatwierdzony przez autora standardu.
 
-**I jeszcze dwie, bo bez nich tamtych osiem się nie trzyma.**
+## Krótka odpowiedź
 
-- [ ] **Wynik jest zapisany.** Nie w czyjejś głowie i nie „przemyśleliśmy to". Zapis zawiera:
-
-  | Zawsze | Przy każdym WOLNO | Przy skutku nieodwracalnym |
-  |--------|-------------------|---------------------------|
-  | decyzję | `najbliżej zamknięcia:` — jedna zasada, jedna nazwana strona | `Skutki:` z przeglądu — koszt cofnięcia i kto go poniesie |
-  | skutek | | `opis nieprzychylny [kto go napisał]:` — z nazwanym autorem |
-  | wiersz bramki systemu | | |
-  | werdykt | | |
-
-- [ ] **Ograniczenia tej oceny są wypełnione** — czego nie sprawdziłeś, czego nie wiesz, co założyłeś. Przy skutku nieodwracalnym ocena bez tej rubryki jest nieważna.
-
-**„Nie" w którymkolwiek miejscu tej listy znaczy „zainspirowane MSS".** Nie znaczy „zgodne z MSS".
-
----
-
-## 3. Forki
-
-**Wolno ci zrobić forka.** CC BY-SA 4.0 tak mówi i ten plik tego nie cofa.
-
-Idą z tym trzy rzeczy:
-
-**Powiedz, co zmieniłeś.** Zwykła lista różnic wobec tekstu kanonicznego, w miejscu, w którym czytelnik ją znajdzie, zanim zacznie polegać na twojej wersji.
-
-**Nie przedstawiaj swojego forka jako kanonu.** Nie „oficjalny MSS", nie „MSS 4.6", nie numer wersji, który czyta się jak następny. Numery wersji należą do tekstu kanonicznego. Daj swojemu forkowi własną nazwę i powiedz, z czego się wywodzi.
-
-**Zachowaj licencję i podanie autora.** CC BY-SA 4.0 oraz Mateusz Małek wskazany jako autor pracy, od której zacząłeś.
-
-Fork, który robi wszystkie trzy rzeczy, jest mile widziany i **nie trzeba na niego pytać o pozwolenie.**
-
----
-
-## Jeśli nie jesteś pewien
-
-Zapytaj przed publikacją, nie po. Otwórz zgłoszenie — zobacz [CONTRIBUTING.pl.md](../CONTRIBUTING.pl.md).
+- Wszystkie wymagania spełnione: **„zgodne z MSS”**.
+- Część wymagań lub własne zmiany: **„na podstawie MSS”** oraz lista różnic.

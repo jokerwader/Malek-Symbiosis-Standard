@@ -1,41 +1,35 @@
 # Bezpieczeństwo
 
-MSS jest dokumentem. Nie ma tu serwera, nie ma pliku wykonywalnego i nie ma czego instalować — więc większość tego, co zwykle znaczy „bezpieczeństwo", tutaj nie ma zastosowania.
-
-Dwie rzeczy mają.
+MSS jest zbiorem dokumentów. Nie ma tu serwera, programu do instalacji ani kodu wykonywanego na komputerze.
 
 English: [SECURITY.md](SECURITY.md)
 
 ---
 
-## Dziurę w bramce systemu zgłasza się jawnie, nie prywatnie
+## Dziurę w zasadach zgłoś publicznie
 
-**Jeśli znalazłeś decyzję, która przechodzi przez wszystkie osiem zasad bramki systemu, a nie powinna — zgłoś to jawnie**, zwykłym zgłoszeniem.
+Dziura w bramce systemu to decyzja, która:
 
-To jest wkład w projekt i najcenniejszy, jaki ten projekt przyjmuje. Wzór jest w [CONTRIBUTING.pl.md](CONTRIBUTING.pl.md).
+1. przechodzi przez wszystkie osiem zasad;
+2. otrzymuje wynik WOLNO;
+3. mimo to krzywdzi człowieka albo nie powinna zostać wykonana.
 
-**Nie siedź na tym i nie przysyłaj po cichu.**
+Jeśli znajdziesz taki przypadek, otwórz publiczne zgłoszenie. Skorzystaj ze wzoru w [CONTRIBUTING.pl.md](CONTRIBUTING.pl.md).
 
-**Dlaczego to jest odwrotność normalnej praktyki:** w oprogramowaniu zgłasza się słabość prywatnie, żeby dało się ją załatać, zanim ktoś ją wykorzysta. Tutaj nie ma czego wykorzystać ani czego łatać po cichu. Słabość bramki systemu jest czymś, o czym **muszą wiedzieć wszyscy, którzy na tym frameworku dziś polegają** — bo polegają na nim właśnie teraz, a prywatne zgłoszenie zostawia ich w tym po ciemku.
+W zwykłym programie lukę często zgłasza się prywatnie, aby nikt jej nie wykorzystał przed naprawą. Tutaj jest inaczej. Osoby korzystające z MSS powinny od razu wiedzieć, że konkretna decyzja przechodzi przez zasady mimo problemu.
 
----
+## Co zgłosić prywatnie
 
-## Co zgłaszać prywatnie
+Napisz prywatnie tylko wtedy, gdy publiczne zgłoszenie mogłoby komuś zaszkodzić. Dotyczy to:
 
-Prywatnie zgłaszaj wyłącznie wtedy, gdy jawność komuś zaszkodzi:
+- danych osobowych pozostawionych w przykładzie;
+- pliku, który nie jest tym, za co się podaje;
+- problemu z repozytorium albo kontem właściciela.
 
-- dane osobowe konkretnej osoby, które zostały w przykładzie, a nie powinny;
-- plik w tym repozytorium, który nie jest tym, za co się podaje;
-- problem z samym repozytorium albo z kontem, które za nim stoi.
+Kontakt: **malek@fifo.com.pl**
 
-**Kontakt:** malek@fifo.com.pl
+## Jakiej odpowiedzi oczekiwać
 
----
+Projekt ma jednego opiekuna. Nie ma gwarantowanego czasu odpowiedzi ani nagrody pieniężnej.
 
-## Czego się spodziewać
-
-Jeden opiekun projektu, żadnej umowy o poziomie usług, żadnej nagrody.
-
-Dostaniesz odpowiedź, ale niekoniecznie szybko.
-
-Jeśli zgłoszenie się obroni, poprawka trafia do [CHANGELOG.md](CHANGELOG.md) z podziękowaniem dla ciebie — chyba że wolisz nie być wymieniony, w takim razie powiedz.
+Jeśli zgłoszenie jest poprawne, opiszemy naprawę w [CHANGELOG.pl.md](CHANGELOG.pl.md). Podamy twoje imię lub nazwę konta, chyba że poprosisz o anonimowość.
