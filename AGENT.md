@@ -4,7 +4,7 @@
 
 Read this file before working in the Malek Symbiosis Standard repository.
 
-This file contains shared instructions, but its name is not automatically recognised by every tool. Configure your tool to load this file. A tool may require a vendor-specific settings file or an explicit instruction path.
+This file contains instructions that different AI tools can use. Not every tool reads a file named `AGENT.md` automatically. Tell your tool to load this file before it starts work. Some tools use a different filename or require you to select the instruction file in their settings.
 
 Polish is the source language of the project. These rules apply to work in both Polish and English files.
 
@@ -12,7 +12,7 @@ Polish is the source language of the project. These rules apply to work in both 
 
 ## What this repository contains
 
-This repository contains instructions, not software. There is no application or dependency set. The Markdown documents describe how to assess decisions that can affect other people.
+This repository contains written instructions, not a computer program. There is no application to start and there are no software packages to install. The Markdown files explain how to assess decisions that can affect other people.
 
 Text is the product. A one-word change can change how a reader makes an important decision. Treat every wording change as carefully as a code change in a running application.
 
@@ -24,7 +24,7 @@ You may depart from these rules only when the author explicitly asks you to do s
 
 ### 1. Do not decide the content of MSS rules
 
-You may fix a file when it conflicts with an existing rule in `standard/STANDARD.pl.md` or `standard/STANDARD.md`. In that case, make the file agree with the canonical standard.
+You may fix a file when it conflicts with a rule already written in `standard/STANDARD.pl.md` or `standard/STANDARD.md`. These two files are the main source of MSS rules. Make the other file agree with them.
 
 Do not create a new rule or change the meaning of an existing rule on your own. The author makes those decisions.
 
@@ -47,11 +47,11 @@ Use this test: **can you point to an existing sentence in the standard that supp
 
 ### 2. Keep both languages aligned
 
-The Polish and English documentation are equally binding and must have the same meaning. A change is incomplete until both language versions have been updated.
+The Polish and English documents are equally official. They must have the same meaning. A change is not finished until you update both language versions.
 
 Polish is the source language. When the author changes the Polish text, update the English version from it. Do not change the Polish source to match an English translation.
 
-File existence does not prove translation parity. Compare meaning, headings, required terms, code blocks, and examples.
+Finding both files does not prove that the translation is correct. Compare their meaning, headings, required terms, code blocks, and examples.
 
 These files intentionally have no Polish-English pair:
 
@@ -72,7 +72,10 @@ Without explicit approval in the current conversation, do not:
 
 A local commit is allowed when requested.
 
-Do not delete an untracked file permanently without the author's approval. A file tracked by Git may be removed when the author requests it, because its previous version remains in Git history. Before removing any file, confirm whether Git tracks it.
+Before removing a file, check whether Git tracks it.
+
+- If Git tracks the file, remove it only when the author asks. Git will keep its earlier version in the project history.
+- If Git does not track the file, do not delete it permanently without the author's approval.
 
 ---
 
@@ -179,7 +182,7 @@ PY
 
 A passing result has zero dead links and no `MISSING POLISH FILE:` lines.
 
-This check confirms that a language pair exists. It does **not** confirm that both files mean the same thing. Review that manually by comparing headings, binding terms, code blocks, examples, and requirements.
+This check only confirms that both language files exist. It does **not** prove that they mean the same thing. Read both files and compare their headings, required terms, code blocks, examples, and instructions.
 
 ### 2. Mermaid diagrams
 
@@ -221,7 +224,7 @@ print('expected MSS version:', expected)
 PY
 ```
 
-A passing result prints the expected MSS version and no `VERSION MISMATCH:` lines. Documents may declare their own format version, such as the test-suite version `1.0`; this check compares semantic `x.y.z` MSS versions.
+A successful check prints the current MSS version and no line beginning with `VERSION MISMATCH:`. Some documents also have their own version number. For example, the test format has version `1.0`. The script only compares MSS version numbers written as three numbers, such as `4.5.0`.
 
 ---
 
@@ -261,7 +264,7 @@ In particular:
 - a limit of the assessment is something that cannot be checked before the decision;
 - the names and order of the eight framework-gate principles must not change.
 
-When a short description here conflicts with the standard, the standard wins. Do not copy additional definitions into this file; a copied definition can drift from the canonical text.
+If a short description here says something different from the standard, follow the standard. Do not copy more definitions into this file. A copied definition can become outdated when the standard changes.
 
 ---
 

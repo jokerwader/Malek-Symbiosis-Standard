@@ -27,7 +27,7 @@ Działa z Claude. Powinno działać z każdym modelem, który wykonuje instrukcj
 
 Każda rozmowa w tym projekcie działa teraz pod MSS.
 
-**Dlaczego oba pliki:** standard mówi, czym MSS jest. `MODEL-INSTRUCTION.pl.md` mówi, kiedy go uruchomić bez pytania i co zrobić. Sam standard daje model, który zna zasady, ale czeka, aż go poprosisz. Sam `MODEL-INSTRUCTION.pl.md` nie działa, bo zasady stoją w standardzie.
+**Dlaczego potrzebujesz obu plików:** `STANDARD.pl.md` zawiera zasady MSS. `MODEL-INSTRUCTION.pl.md` mówi modelowi, kiedy ma użyć tych zasad bez czekania na polecenie. Mówi też, jakie kroki model ma wykonać. Jeden plik nie zastępuje drugiego.
 
 ---
 
@@ -129,9 +129,13 @@ Jeśli mimo to podtrzymam polecenie, nie wykonuj po cichu i nie zmieniaj werdykt
 
 ## C. Claude Code
 
-Utwórz plik `CLAUDE.md` w katalogu głównym repozytorium, w którym będzie pracować Claude Code. Najpierw wklej do niego pełną treść [STANDARD.pl.md](../standard/STANDARD.pl.md). Pod standardem wklej pełną treść [MODEL-INSTRUCTION.pl.md](../standard/MODEL-INSTRUCTION.pl.md). Zapisz plik przed uruchomieniem Claude Code.
+1. Otwórz repozytorium, w którym będzie pracować Claude Code.
+2. W głównym katalogu repozytorium utwórz plik `CLAUDE.md`.
+3. Wklej do niego pełną treść [STANDARD.pl.md](../standard/STANDARD.pl.md).
+4. Pod standardem wklej pełną treść [MODEL-INSTRUCTION.pl.md](../standard/MODEL-INSTRUCTION.pl.md).
+5. Zapisz `CLAUDE.md` przed uruchomieniem Claude Code.
 
-Claude Code odczytuje `CLAUDE.md` jako instrukcję repozytorium. Ta konfiguracja dotyczy wyłącznie Claude Code. Inne narzędzia mogą wymagać innej nazwy pliku lub innego sposobu konfiguracji.
+Claude Code odczytuje `CLAUDE.md`, gdy pracuje w repozytorium. Inne narzędzia AI mogą wymagać innej nazwy pliku albo ustawienia wskazującego plik z instrukcją.
 
 Warto zawęzić wyzwalacz do tego, co tam faktycznie ma znaczenie. Dopisz własne zdanie, na przykład: *„Uruchamiaj MSS przy wszystkim, co zmienia produkcję, dotyka danych klientów albo wychodzi do osoby trzeciej. Nie uruchamiaj przy zwykłych zmianach w kodzie."*
 

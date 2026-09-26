@@ -27,7 +27,7 @@ It works with Claude. It should work with any model that follows a system instru
 
 Every conversation in that project now runs MSS.
 
-**Why both files:** the standard says what MSS is. `MODEL-INSTRUCTION.md` says when to run it unprompted and what to do. The standard alone gives you a model that knows the rules but waits to be asked. `MODEL-INSTRUCTION.md` alone does not work, because the rules live in the standard.
+**Why you need both files:** `STANDARD.md` contains the MSS rules. `MODEL-INSTRUCTION.md` tells the model when to use those rules without waiting for a request. It also tells the model what steps to take. One file does not replace the other.
 
 ---
 
@@ -129,9 +129,13 @@ A deliberate override stays in the record. A skipped check does not. That is the
 
 ## C. Claude Code
 
-Create a `CLAUDE.md` file at the root of the repository where Claude Code will work. Paste the complete contents of [STANDARD.md](../standard/STANDARD.md) into it first. Under the standard, paste the complete contents of [MODEL-INSTRUCTION.md](../standard/MODEL-INSTRUCTION.md). Save the file before starting Claude Code.
+1. Open the repository where Claude Code will work.
+2. Create a file named `CLAUDE.md` in the main repository directory.
+3. Copy the complete contents of [STANDARD.md](../standard/STANDARD.md) into that file.
+4. Under the standard, copy the complete contents of [MODEL-INSTRUCTION.md](../standard/MODEL-INSTRUCTION.md).
+5. Save `CLAUDE.md` before starting Claude Code.
 
-Claude Code reads `CLAUDE.md` as repository instructions. This setup applies specifically to Claude Code; other tools may require a different filename or configuration.
+Claude Code reads `CLAUDE.md` when it works in the repository. Other AI tools may require a different filename or a setting that points to the instruction file.
 
 It is worth narrowing the trigger to what actually matters there. Add a line of your own, for example: *"Run MSS on anything that changes production, touches customer data, or goes out to a third party. Do not run it on ordinary code changes."*
 
