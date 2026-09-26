@@ -35,7 +35,7 @@ Format według [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), wersjon
 
 ### Uwaga o strukturze dwóch plików
 
-Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `AGENT.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `AGENT.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
+Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `MODEL-INSTRUCTION.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `MODEL-INSTRUCTION.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
 
 ---
 

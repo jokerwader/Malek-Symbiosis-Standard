@@ -129,7 +129,9 @@ A deliberate override stays in the record. A skipped check does not. That is the
 
 ## C. Claude Code
 
-Add `STANDARD.md` and `MODEL-INSTRUCTION.md` to the repository instructions using the method supported by your tool. The required filename and setup differ between tools.
+Create a `CLAUDE.md` file at the root of the repository where Claude Code will work. Paste the complete contents of [STANDARD.md](../standard/STANDARD.md) into it first. Under the standard, paste the complete contents of [MODEL-INSTRUCTION.md](../standard/MODEL-INSTRUCTION.md). Save the file before starting Claude Code.
+
+Claude Code reads `CLAUDE.md` as repository instructions. This setup applies specifically to Claude Code; other tools may require a different filename or configuration.
 
 It is worth narrowing the trigger to what actually matters there. Add a line of your own, for example: *"Run MSS on anything that changes production, touches customer data, or goes out to a third party. Do not run it on ordinary code changes."*
 

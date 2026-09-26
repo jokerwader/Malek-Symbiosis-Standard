@@ -129,7 +129,9 @@ Jeśli mimo to podtrzymam polecenie, nie wykonuj po cichu i nie zmieniaj werdykt
 
 ## C. Claude Code
 
-Dodaj `STANDARD.pl.md` i `MODEL-INSTRUCTION.pl.md` do instrukcji repozytorium w sposób obsługiwany przez używane narzędzie. Wymagana nazwa pliku i sposób konfiguracji różnią się między narzędziami.
+Utwórz plik `CLAUDE.md` w katalogu głównym repozytorium, w którym będzie pracować Claude Code. Najpierw wklej do niego pełną treść [STANDARD.pl.md](../standard/STANDARD.pl.md). Pod standardem wklej pełną treść [MODEL-INSTRUCTION.pl.md](../standard/MODEL-INSTRUCTION.pl.md). Zapisz plik przed uruchomieniem Claude Code.
+
+Claude Code odczytuje `CLAUDE.md` jako instrukcję repozytorium. Ta konfiguracja dotyczy wyłącznie Claude Code. Inne narzędzia mogą wymagać innej nazwy pliku lub innego sposobu konfiguracji.
 
 Warto zawęzić wyzwalacz do tego, co tam faktycznie ma znaczenie. Dopisz własne zdanie, na przykład: *„Uruchamiaj MSS przy wszystkim, co zmienia produkcję, dotyka danych klientów albo wychodzi do osoby trzeciej. Nie uruchamiaj przy zwykłych zmianach w kodzie."*
 

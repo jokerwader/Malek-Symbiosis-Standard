@@ -31,7 +31,7 @@ Each entry uses the words that were in force in the version it describes. Where 
 
 ### A note on the two-file structure
 
-The instruction to paste is still two files, not one: the standard, then `AGENT.md`. They are separate because they answer different questions — the standard says what the rules are, `AGENT.md` says when a model should run them without being asked. Merging them would make one paste instead of two, and would also mean a reader who wants the rules has to read the trigger conditions. If that trade looks worth making later, it is one merge and one redirect.
+The instruction to paste is still two files, not one: the standard, then `MODEL-INSTRUCTION.md`. They are separate because they answer different questions — the standard says what the rules are, `MODEL-INSTRUCTION.md` says when a model should run them without being asked. Merging them would make one paste instead of two, and would also mean a reader who wants the rules has to read the trigger conditions. If that trade looks worth making later, it is one merge and one redirect.
 
 ## [4.4.0] — <!-- TO BE COMPLETED BY THE AUTHOR -->
 
