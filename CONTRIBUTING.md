@@ -6,7 +6,7 @@ Discussion is wanted and answered. Merges are rare and deliberate.
 
 If you need a project where a good argument becomes a commit next week, this is not that project — and it is better that you know now than after you have written three pages.
 
-**This is a framework for practitioners, not a paper.** The bar for a submission is a real case, not an argument about what a word ought to mean.
+**This is a tool for people making real decisions, not a theoretical paper.** The bar for a submission is a real case, not an argument about what a word ought to mean.
 
 - **Not a submission:** "consequence should be called impact."
 - **A submission:** "I put this decision through the framework gate, it came out ALLOWED, and here is the person it hurt."
@@ -17,7 +17,7 @@ If you need a project where a good argument becomes a commit next week, this is 
 
 The highest priority in this repository is a **framework gate gap** — a decision that passes all eight principles and should not.
 
-**Why this one outranks everything else:** it is the only report the framework cannot answer with "you used it wrong." Chapter 9 of the standard admits the gate can be beaten. A framework gate gap is somebody showing exactly how.
+**Why this one outranks everything else:** it is the only report MSS cannot answer with "you used it wrong." Chapter 9 of the standard admits the gate can be beaten. A framework gate gap is somebody showing exactly how.
 
 Open an issue titled `Framework gate gap: [one line]` and use this template.
 
@@ -47,9 +47,9 @@ SUGGESTED FIX: [optional. If you propose adding text, name the text
                 you would cut to make room. See the volume rule below.]
 ```
 
-**If one of the eight does catch it**, you have not found a framework gate gap — you have found a case where the framework worked. Send it anyway, say so plainly, and it may end up in `examples/`.
+**If one of the eight does catch it**, you have not found a framework gate gap — you have found a case where MSS worked. Send it anyway, say so plainly, and it may end up in `examples/`.
 
-**An easy way to produce these:** run the test the standard asks of you in section 8.2 — put ten decisions to a model that should not pass. Build them out of your own work, not out of extreme cases. The ones that get through a framework are never the obviously bad ones. [USE-WITH-CLAUDE.md](guides/USE-WITH-CLAUDE.md) sets that up in two minutes.
+**An easy way to produce these:** run the test the standard asks of you in section 8.2 — put ten decisions to a model that should not pass. Build them out of your own work, not out of extreme cases. The ones that get through MSS are never the obviously bad ones. [USE-WITH-CLAUDE.md](guides/USE-WITH-CLAUDE.md) sets that up in two minutes.
 
 ---
 

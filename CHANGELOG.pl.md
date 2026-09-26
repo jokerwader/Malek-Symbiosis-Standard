@@ -21,6 +21,11 @@ Format według [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), wersjon
 - **[STANDARD.pl.md](standard/STANDARD.pl.md) i [STANDARD.md](standard/STANDARD.md).** Pełna specyfikacja: cztery mechanizmy, skutek, bramka systemu, przegląd, flagi, werdykt, zapis, odmowa, dwie zasady ogólne i to, czego framework nie załatwia. To jest tekst kanoniczny i to jest to, co wkleja się modelowi.
 - **Polskie wersje wszystkiego, co czyta człowiek:** [DIAGRAMS.pl.md](guides/DIAGRAMS.pl.md), [NAME-USAGE.pl.md](guides/NAME-USAGE.pl.md), [SECURITY.pl.md](SECURITY.pl.md), [CONTRIBUTING.pl.md](CONTRIBUTING.pl.md) oraz wszystkie cztery pliki w `examples/`. Diagramy mermaid przetłumaczone etykieta po etykiecie i sprawdzone ponownie: 4 bloki, 0 błędów, w obu językach, na identycznych numerach linii.
 
+### Zmienione — 18 września 2026
+
+- **Główny plik `CLAUDE.md` zmienił nazwę na `AGENT.md`.** Instrukcja repozytorium nie jest już opisana jako plik przeznaczony wyłącznie dla Claude Code. Z tego samego pliku mogą korzystać Claude, ChatGPT, Cline i inne narzędzia, które odczytują instrukcje z repozytorium. Zawartość została napisana pełnymi zdaniami i prostym językiem. Zasady MSS nie zmieniły się.
+- **Instrukcje uruchomienia wskazują teraz główny plik `AGENT.md`.** Najpierw wkleja się do niego standard, a następnie wykonawczy plik `standard/AGENT.pl.md`.
+
 ### Zmienione
 
 - **README jest teraz wizytówką i niczym więcej.** Odpowiada po kolei na cztery pytania — czym to jest, skąd się wzięło, po co jest i jak działa — a potem wskazuje plik, który niesie zasady. Zawiera jeden kompletny krótki zapis, żeby czytelnik zobaczył wynik bez czytania specyfikacji, oraz tabelę mówiącą, który plik jest dla kogo.

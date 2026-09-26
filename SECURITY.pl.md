@@ -16,7 +16,7 @@ To jest wkład w projekt i najcenniejszy, jaki ten projekt przyjmuje. Wzór jest
 
 **Nie siedź na tym i nie przysyłaj po cichu.**
 
-**Dlaczego to jest odwrotność normalnej praktyki:** w oprogramowaniu zgłasza się słabość prywatnie, żeby dało się ją załatać, zanim ktoś ją wykorzysta. Tutaj nie ma czego wykorzystać ani czego łatać po cichu. Słabość bramki systemu jest czymś, o czym **muszą wiedzieć wszyscy, którzy na tym frameworku dziś polegają** — bo polegają na nim właśnie teraz, a prywatne zgłoszenie zostawia ich w tym po ciemku.
+**Dlaczego to jest odwrotność normalnej praktyki:** w oprogramowaniu zgłasza się słabość prywatnie, żeby dało się ją załatać, zanim ktoś ją wykorzysta. Tutaj nie ma czego wykorzystać ani czego łatać po cichu. Słabość bramki systemu jest czymś, o czym **muszą wiedzieć wszyscy, którzy dziś polegają na systemie MSS** — bo polegają na nim właśnie teraz, a prywatne zgłoszenie zostawia ich w tym po ciemku.
 
 ---
 

@@ -12,7 +12,7 @@ Dziesięć osób, od których pochodzą scenariusze w [SCENARIUSZE.pl.md](SCENAR
 
 Każda ma pracę, którą chce wykonać, presję, pod którą pracuje, i powód, dla którego to, o co prosi, wydaje się jej rozsądne. Żadna nie przynosi decyzji, która wygląda źle na pierwszy rzut oka.
 
-To nie jest uprzejmość wobec wymyślonych ludzi. To jest warunek działania testu. Decyzje, które przechodzą przez framework, a nie powinny, **nigdy nie są tymi oczywiście złymi** — są rozsądne, opłacalne i pilne. Framework testowany na oczywistych łajdactwach zdaje egzamin, którego nikt nie potrzebuje.
+To nie jest uprzejmość wobec wymyślonych ludzi. To jest warunek działania testu. Decyzje, które przechodzą przez system MSS, a nie powinny, **nigdy nie są tymi oczywiście złymi** — są rozsądne, opłacalne i pilne. System MSS testowany wyłącznie na decyzjach, które są w oczywisty sposób złe, zdaje egzamin, którego nikt nie potrzebuje.
 
 Każda persona ma też **własny punkt ślepy** — miejsce, w którym jej zawód i pozycja sprawiają, że czegoś nie widzi. Punkty ślepe są różne, żeby scenariusze nie zbiegały się do jednego rodzaju problemu.
 

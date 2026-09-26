@@ -52,7 +52,7 @@ Some variants change something that **should not matter**: a name, a gender, a c
 
 Every scenario is brought by a specific person with a specific interest. **These people want what they are asking for.** None of them is a villain and none brings a decision that looks bad at first glance.
 
-Decisions that pass a framework and should not are never the obviously bad ones. They are sensible, profitable and urgent.
+Decisions that pass MSS and should not are never the obviously bad ones. They are sensible, profitable and urgent.
 
 ---
 
@@ -138,7 +138,7 @@ This is the only place where your own judgement enters the measurement — and i
 
 ## What this suite does not measure
 
-**It does not measure whether MSS is a good framework.** It measures whether it is unambiguous and whether models execute it.
+**It does not measure whether MSS is a good decision-assessment system.** It measures whether it is unambiguous and whether models execute it.
 
 **It does not measure behaviour in real work.** A scenario pasted into a chat window is not the same as a decision taken under pressure, mid-afternoon, by somebody who already knows what they want to do.
 

@@ -6,7 +6,7 @@ Dyskusja jest mile widziana i doczeka się odpowiedzi. Scalenia są rzadkie i pr
 
 Jeśli potrzebujesz projektu, w którym dobry argument staje się commitem w przyszłym tygodniu — to nie jest ten projekt. I lepiej, żebyś wiedział o tym teraz, niż po napisaniu trzech stron.
 
-**To jest framework dla praktyków, a nie artykuł.** Progiem zgłoszenia jest realny przypadek, a nie spór o to, co dane słowo powinno znaczyć.
+**To jest narzędzie dla osób podejmujących rzeczywiste decyzje, a nie artykuł teoretyczny.** Progiem zgłoszenia jest realny przypadek, a nie spór o to, co dane słowo powinno znaczyć.
 
 - **Nie jest zgłoszeniem:** „skutek powinien się nazywać wpływ".
 - **Jest zgłoszeniem:** „przepuściłem tę decyzję przez bramkę systemu, wyszło WOLNO, a oto człowiek, którego to skrzywdziło".
@@ -19,7 +19,7 @@ English: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Najwyższy priorytet w tym repozytorium ma **dziura w bramce systemu** — decyzja, która przechodzi przez wszystkie osiem zasad, a nie powinna.
 
-**Dlaczego to bije wszystko inne:** to jedyne zgłoszenie, na które framework nie może odpowiedzieć „źle go użyłeś". Rozdział 9 standardu przyznaje, że bramkę da się ograć. Dziura w bramce to ktoś pokazujący, jak dokładnie.
+**Dlaczego to bije wszystko inne:** to jedyne zgłoszenie, na które system MSS nie może odpowiedzieć „źle go użyłeś". Rozdział 9 standardu przyznaje, że bramkę da się ograć. Dziura w bramce to ktoś pokazujący, jak dokładnie.
 
 Otwórz zgłoszenie zatytułowane `Framework gate gap: [jedna linijka]` i użyj tego wzoru.
 
@@ -50,9 +50,9 @@ PROPONOWANA POPRAWKA: [opcjonalnie. Jeśli proponujesz dopisanie tekstu, nazwij
                        objętości niżej.]
 ```
 
-**Jeśli któraś z ośmiu jednak to łapie**, nie znalazłeś dziury w bramce — znalazłeś przypadek, w którym framework zadziałał. Przyślij mimo to, powiedz to wprost, a może trafić do `examples/`.
+**Jeśli któraś z ośmiu jednak to łapie**, nie znalazłeś dziury w bramce — znalazłeś przypadek, w którym system MSS zadziałał. Przyślij mimo to, powiedz to wprost, a może trafić do `examples/`.
 
-**Łatwy sposób, żeby takie przypadki wyprodukować:** przeprowadź test, którego standard żąda od ciebie w punkcie 8.2 — podsuń modelowi dziesięć decyzji, które nie powinny przejść. Zbuduj je z własnej roboty, a nie z przypadków skrajnych. Przez framework nigdy nie przechodzą te oczywiście złe. [USE-WITH-CLAUDE.pl.md](guides/USE-WITH-CLAUDE.pl.md) ustawia to w dwie minuty.
+**Łatwy sposób, żeby takie przypadki wyprodukować:** przeprowadź test, którego standard żąda od ciebie w punkcie 8.2 — podsuń modelowi dziesięć decyzji, które nie powinny przejść. Zbuduj je z własnej roboty, a nie z przypadków skrajnych. Przez system MSS nie przechodzą te oczywiście złe. [USE-WITH-CLAUDE.pl.md](guides/USE-WITH-CLAUDE.pl.md) ustawia to w dwie minuty.
 
 ---
 

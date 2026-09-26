@@ -1,6 +1,8 @@
-# CLAUDE.md — zasady pracy w repozytorium Malek Symbiosis Standard
+# AGENT.md — zasady pracy w repozytorium Malek Symbiosis Standard
 
-Ten dokument wyjaśnia, jak Claude Code ma pracować w tym repozytorium. Przeczytaj go przed rozpoczęciem każdej sesji.
+Ten dokument wyjaśnia, jak model AI lub agent programistyczny ma pracować w tym repozytorium. Przeczytaj go przed rozpoczęciem każdej sesji.
+
+Plik jest niezależny od konkretnego narzędzia. Mogą z niego korzystać między innymi Claude, ChatGPT, Cline oraz inne narzędzia obsługujące instrukcje zapisane w repozytorium.
 
 Dokument jest po polsku, ponieważ polski jest językiem źródłowym projektu. Wszystkie poniższe zasady obowiązują jednak zarówno w polskich, jak i w angielskich plikach.
 
@@ -68,7 +70,7 @@ Nie usuwaj plików bezpowrotnie. Jeśli plik ma zniknąć z repozytorium, przeni
 - `LICENSE.md` — zawiera prawny tekst licencji CC BY-SA 4.0. Plik celowo istnieje tylko po angielsku. Nie tłumacz go.
 - `CITATION.cff` — zawiera dane potrzebne do cytowania projektu.
 - `CONTRIBUTING.md`, `CONTRIBUTING.pl.md`, `SECURITY.md`, `SECURITY.pl.md`, `CHANGELOG.md` i `CHANGELOG.pl.md` — opisują sposób pracy nad projektem i jego historię.
-- `CLAUDE.md` — dokument, który właśnie czytasz.
+- `AGENT.md` — dokument, który właśnie czytasz.
 - `.gitattributes` — zapewnia jednakowy zapis końców linii na różnych systemach operacyjnych.
 
 ### `standard/` — tekst kanoniczny
@@ -142,7 +144,7 @@ for f in files:
             bad+=1; print('MARTWY:',f,'->',t)
 print('odnosniki:',tot,' martwe:',bad)
 print('emotikony:',sum(1 for f in files for l in open(f,encoding='utf-8') for ch in l if ord(ch)>0x2500))
-BEZ_PL={'LICENSE.md','CLAUDE.md','.github/PULL_REQUEST_TEMPLATE.md'}
+BEZ_PL={'LICENSE.md','AGENT.md','.github/PULL_REQUEST_TEMPLATE.md'}
 PARY={'tests/PERSONAS.md':'tests/PERSONY.pl.md',
       'tests/SCENARIOS.md':'tests/SCENARIUSZE.pl.md',
       'tests/SCORESHEET.md':'tests/KARTA-WYNIKOW.md'}
@@ -164,7 +166,7 @@ Prawidłowy wynik zawiera:
 Lista `BEZ_PL` zawiera celowe wyjątki:
 
 - `LICENSE.md` pozostaje po angielsku, ponieważ tłumaczenie prawnego tekstu licencji mogłoby zmienić jego znaczenie;
-- `CLAUDE.md` i `.github/PULL_REQUEST_TEMPLATE.md` są wewnętrznymi plikami roboczymi, a nie częścią standardu.
+- `AGENT.md` i `.github/PULL_REQUEST_TEMPLATE.md` są wewnętrznymi plikami roboczymi, a nie częścią standardu.
 
 Nie dodawaj nowych wyjątków do listy `BEZ_PL` bez zgody autora.
 

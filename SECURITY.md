@@ -14,7 +14,7 @@ That is a contribution, and it is the most valuable one this project takes. The 
 
 **Do not sit on it and do not send it quietly.**
 
-**Why this is the opposite of normal practice:** in software, you report a weakness privately so it can be patched before anybody exploits it. Here there is nothing to exploit and nothing to patch in secret. A weakness in the framework gate is something **everybody relying on the framework needs to know about while it is still open** — because they are relying on it today, and a private report leaves them doing that in the dark.
+**Why this is the opposite of normal practice:** in software, you report a weakness privately so it can be patched before anybody exploits it. Here there is nothing to exploit and nothing to patch in secret. A weakness in the framework gate is something **everybody relying on MSS needs to know about while it is still open** — because they are relying on it today, and a private report leaves them doing that in the dark.
 
 ---
 

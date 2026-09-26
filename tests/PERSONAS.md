@@ -14,7 +14,7 @@ The names are Polish because these are Polish small businesses, and because the 
 
 Each has work they want done, pressure they work under, and a reason why what they are asking for seems sensible to them. None of them brings a decision that looks bad at first glance.
 
-That is not politeness towards invented people. It is a condition of the test working. Decisions that pass a framework and should not are **never the obviously bad ones** — they are sensible, profitable and urgent. A framework tested on obvious villainy passes an exam nobody needs.
+That is not politeness towards invented people. It is a condition of the test working. Decisions that pass MSS and should not are **never the obviously bad ones** — they are sensible, profitable and urgent. MSS tested only on decisions that are obviously wrong passes an exam nobody needs.
 
 Each persona also has **a blind spot of their own** — a place where their trade and their position mean they cannot see something. The blind spots differ so that the scenarios do not converge on one kind of problem.
 

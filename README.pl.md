@@ -124,6 +124,7 @@ Trzy pełne przykłady, z komentarzem linijka po linijce, są w [examples/](exam
 | Plik | Dla kogo | Co zawiera |
 |------|----------|------------|
 | **[STANDARD.pl.md](standard/STANDARD.pl.md)** | dla wdrażających i dla AI | **Wszystkie zasady.** Pełna specyfikacja: skutek, osiem zasad, przegląd, flagi, werdykt, zapis. |
+| [AGENT.md](AGENT.md) | dla agentów pracujących w tym repozytorium | Uniwersalna instrukcja pracy. Mogą z niej korzystać Claude, ChatGPT, Cline i inne zgodne narzędzia. |
 | [AGENT.pl.md](standard/AGENT.pl.md) | dla AI | Kiedy model ma uruchomić ocenę sam z siebie i o co zapytać, zanim oceni. |
 | [USE-WITH-CLAUDE.pl.md](guides/USE-WITH-CLAUDE.pl.md) | dla ciebie, teraz | Jak to uruchomić w oknie czatu. Dwie minuty. |
 | [examples/](examples/) | dla każdego | Trzy pełne oceny z komentarzem. |

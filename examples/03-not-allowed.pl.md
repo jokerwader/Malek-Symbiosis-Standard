@@ -6,7 +6,7 @@ English: [03-not-allowed.md](03-not-allowed.md)
 
 ---
 
-**To jest przykład, dla którego cały ten framework istnieje.**
+**Ten przykład pokazuje, po co istnieje cały system MSS.**
 
 Wszystko w poniższej decyzji jest atrakcyjne. Przychód jest realny, prawnicy dali zielone światło, kontrola jest czysta, a przegląd najmocniejszy z trzech przykładów.
 

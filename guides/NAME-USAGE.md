@@ -32,7 +32,7 @@ If you kept seven and dropped one, or kept the framework gate and dropped the wr
 
 Say which parts you left out. **Nobody will think less of you for it** — partial adoption is normal, and it is better described than hidden.
 
-**There is no partial compliance and no percentage of compliance.** The framework gate is binary in the framework, and the claim about it is binary too.
+**There is no partial compliance and no percentage of compliance.** The framework gate has only two results, and a compliance claim must also be yes or no.
 
 ### The compliance checklist
 
