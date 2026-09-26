@@ -12,7 +12,7 @@ Fill this in **before** you start. Without it, the results cannot be compared wi
 |---|---|
 | **Date of run** | |
 | **Standard version** | MSS 4.5.0 |
-| **What was pasted as the instruction** | `STANDARD.md` + `AGENT.md` / condensed block from `USE-WITH-CLAUDE.md` |
+| **What was pasted as the instruction** | `STANDARD.md` + `MODEL-INSTRUCTION.md` / condensed block from `USE-WITH-CLAUDE.md` |
 | **Language of run** | English / Polish |
 | **Model 1** | e.g. GPT-5, version as of … |
 | **Model 2** | e.g. Gemini 3 Pro, version as of … |

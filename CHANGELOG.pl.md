@@ -23,15 +23,20 @@ Format według [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), wersjon
 
 ### Zmienione
 
-- **README jest teraz wizytówką i niczym więcej.** Odpowiada po kolei na cztery pytania — czym to jest, skąd się wzięło, po co jest i jak działa — a potem wskazuje plik, który niesie zasady. Zawiera jeden kompletny krótki zapis, żeby czytelnik zobaczył wynik bez czytania specyfikacji, oraz tabelę mówiącą, który plik jest dla kogo.
-- **README mówi, skąd MSS się wziął.** Nic w repozytorium wcześniej tego nie mówiło. Punktacja, od której projekt wziął starą nazwę, została usunięta, bo pozwalała nadrobić niską ocenę etyczną wysoką oceną biznesową — a to jest dokładnie ta arytmetyka, której framework ma odmawiać. Jeden akapit osobistego kontekstu jest oznaczony do uzupełnienia albo wycięcia przez autora.
+- **Instrukcją repozytorium jest teraz angielski, niezależny od narzędzia główny plik `AGENT.md`.** Plik informuje, że każde narzędzie wymaga własnej konfiguracji, zamiast obiecywać automatyczne wykrywanie jednej nazwy. Język odpowiedzi wybiera pojedynczy komentarz na początku pliku.
+- **Pliki wykonawcze MSS nazywają się teraz `standard/MODEL-INSTRUCTION.md` i `standard/MODEL-INSTRUCTION.pl.md`.** Dzięki temu w repozytorium jest tylko jeden plik o nazwie `AGENT.md`, a instrukcja repozytorium nie myli się z instrukcją MSS.
+- **Kontrole repozytorium sprawdzają teraz oba pliki Mermaid, odróżniają obecność pary plików od zgodności tłumaczenia, pomijają historyczne wersje z changelogów i pozwalają używać emotikonów.**
+- **Instrukcje repozytorium i uruchomienia używają teraz prostego języka.** Terminy techniczne pozostają tylko tam, gdzie model potrzebuje dokładnej nazwy pliku, polecenia albo terminu MSS. Dłuższe czynności są zapisane jako kroki numerowane.
+- **README jest krótszy i zwraca się bezpośrednio do czytelnika.** Wyjaśnia, czym jest MSS, skąd się wzięło, czego wymaga i od czego zacząć. Usunięto długie opisy w trzeciej osobie oraz powtórzenia. Żadna zasada MSS się nie zmieniła.
+- **Instrukcje zgłaszania zmian, bezpieczeństwa i używania nazwy stosują ten sam bezpośredni język.** Każdy plik zaczyna od czynności, którą ma wykonać czytelnik, wyjaśnia terminy techniczne przed ich użyciem i zapisuje dłuższe procedury jako kroki numerowane.
+
 - **Każde odwołanie mówiące „rdzeń" mówi teraz „standard"** i wskazuje na `STANDARD.pl.md`, w `AGENT.pl.md`, `USE-WITH-CLAUDE.pl.md`, `DIAGRAMS.pl.md`, `NAME-USAGE.pl.md`, `CONTRIBUTING.pl.md` i we wszystkich `examples/`. `USE-WITH-CLAUDE` każe teraz wkleić `STANDARD.pl.md`, a nie `README.pl.md`.
 - **Repozytorium ułożone pod publikację.** Pliki, których GitHub szuka w katalogu głównym, tam zostają — README, LICENSE, CITATION.cff, CONTRIBUTING, SECURITY, CHANGELOG. Reszta przeniesiona do `standard/` (tekst kanoniczny i plik wykonawczy, trzymane razem, bo wkleja się je razem), `guides/` (jak uruchomić, używanie nazwy, diagramy) oraz `assets/`. Dodany `.gitattributes`, żeby kopia na Windowsie i kopia na Linuksie dawały ten sam plik, oraz `.github/` z dwoma formularzami zgłoszeń — dziura w bramce systemu i sformułowanie, które wprowadziło w błąd prawdziwego czytelnika — plus szablon pull requesta pytający o oba języki i o zasadę, którą zmiana zastępuje.
 - **Nowy rozdział w README mówi, co jest opublikowane, a co nie.** To, co tu stoi, jest szkieletem: zasady i procedura. Warstwa, która pracuje we własnych aplikacjach autora, jest zbudowana na tym szkielecie i nie jest publikowana — nie dlatego, że jest lepsza, tylko dlatego, że jest podłączeniem produktowym, bezużytecznym dla kogokolwiek innego. Zasady w tym repozytorium są tymi samymi zasadami co w tamtej warstwie, co do słowa; nie ma tu wersji demonstracyjnej.
 
 ### Uwaga o strukturze dwóch plików
 
-Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `AGENT.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `AGENT.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
+Do wklejenia są nadal dwa pliki, a nie jeden: standard, potem `MODEL-INSTRUCTION.pl.md`. Są osobne, bo odpowiadają na różne pytania — standard mówi, jakie są zasady, a `MODEL-INSTRUCTION.pl.md` mówi, kiedy model ma je uruchomić bez pytania. Scalenie dałoby jedno wklejenie zamiast dwóch, ale oznaczałoby też, że czytelnik szukający zasad musi przeczytać warunki wyzwalania. Jeśli ta zamiana okaże się później warta zrobienia, to jedno scalenie i jedno przekierowanie.
 
 ---
 
