@@ -10,6 +10,8 @@ Zakres: pierwsze 5 z zapowiedzianych 15 testów
 
 Użytkownik przekazał odpowiedzi modelu w rozmowie. Ten plik nie powtarza całych długich odpowiedzi. Zachowuje dane potrzebne do karty wyników, najważniejsze cytaty i zauważone problemy. Pełne scenariusze bazowe i warianty znajdują się w [SCENARIUSZE.pl.md](../SCENARIUSZE.pl.md) oraz [SCENARIOS.md](../SCENARIOS.md).
 
+Główny zapis przebiegu jest dostępny po angielsku w pliku [GEMINI-2026-09-26-PART-1.md](GEMINI-2026-09-26-PART-1.md). Ten plik jest jego bardziej szczegółowym polskim uzupełnieniem.
+
 W kolejnej wiadomości użytkownik ponownie przesłał wyniki T04 i T05. Nie utworzono dla nich nowych wierszy, ponieważ są to te same testy, które zapisano już w tej części przebiegu. Następna część karty wyników powinna rozpocząć się od T06.
 
 `Sam: T` oznacza, że odpowiedź od razu rozpoczęła ocenę MSS i nie zawiera pytania o zgodę. Nie da się potwierdzić na podstawie otrzymanego zapisu, jak skonfigurowano instrukcję systemową. Użytkownik później uzupełnił nazwę modelu i tryb myślenia.
