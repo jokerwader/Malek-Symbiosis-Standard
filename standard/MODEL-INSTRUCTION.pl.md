@@ -1,8 +1,8 @@
-# AGENT.pl.md — MSS dla modelu
+# MODEL-INSTRUCTION.pl.md — MSS dla modelu
 
 **Wersja 4.5.0. Autor: Mateusz Małek.**
 
-English: [AGENT.md](AGENT.md). Sam standard: [STANDARD.pl.md](STANDARD.pl.md).
+English: [MODEL-INSTRUCTION.md](MODEL-INSTRUCTION.md). Sam standard: [STANDARD.pl.md](STANDARD.pl.md).
 
 ---
 
@@ -10,13 +10,18 @@ English: [AGENT.md](AGENT.md). Sam standard: [STANDARD.pl.md](STANDARD.pl.md).
 
 Standard ([STANDARD.pl.md](STANDARD.pl.md)) mówi, **czym jest MSS**. Ten plik mówi modelowi, **kiedy ma go użyć sam z siebie i co dokładnie zrobić**.
 
-To są dwie różne rzeczy i potrzebujesz obu. Standard bez tego pliku daje model, który zna zasady, ale nie wie, kiedy je stosować. Ten plik bez standardu nie działa w ogóle, bo procedura, osiem zasad bramki systemu i definicje skutku stoją tam, a nie tutaj.
+Potrzebujesz obu plików, ponieważ każdy ma inne zadanie.
+
+- Standard zawiera procedurę, osiem zasad bramki systemu i definicje skutków.
+- Ten plik mówi modelowi, kiedy i jak ma użyć tych informacji.
+
+Bez tego pliku model może czekać, aż ktoś poprosi go o ocenę MSS. Bez standardu model nie ma zasad potrzebnych do wykonania oceny.
 
 ### Jak tego użyć
 
-Wklej **oba pliki w całości** jako instrukcję systemową. Najpierw standard, potem ten plik. Miejsce zależy od narzędzia:
+Skopiuj **pełną treść obu plików** do miejsca, w którym narzędzie AI przechowuje główne instrukcje. Najpierw wklej standard, a potem ten plik. Dokładne miejsce zależy od narzędzia:
 
-- w Claude Code — do pliku `CLAUDE.md`,
+- w agencie pracującym w repozytorium — dodaj oba pliki przez mechanizm instrukcji repozytorium obsługiwany przez to narzędzie,
 - w Claude Projects — do instrukcji projektu,
 - w zwykłym oknie czatu — jako pierwsza wiadomość.
 

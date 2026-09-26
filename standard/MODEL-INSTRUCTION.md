@@ -1,8 +1,8 @@
-# AGENT.md — MSS for the model
+# MODEL-INSTRUCTION.md — MSS for the model
 
 **Version 4.5.0. By Mateusz Małek.**
 
-Polish: [AGENT.pl.md](AGENT.pl.md). The standard itself: [STANDARD.md](STANDARD.md).
+Polish: [MODEL-INSTRUCTION.pl.md](MODEL-INSTRUCTION.pl.md). The standard itself: [STANDARD.md](STANDARD.md).
 
 ---
 
@@ -10,13 +10,18 @@ Polish: [AGENT.pl.md](AGENT.pl.md). The standard itself: [STANDARD.md](STANDARD.
 
 The standard ([STANDARD.md](STANDARD.md)) says **what MSS is**. This file tells the model **when to run it unprompted, and exactly what to do**.
 
-Those are two different things and you need both. The standard without this file gives you a model that knows the rules but does not know when to apply them. This file without the standard does not work at all, because the procedure, the eight principles of the framework gate and the definitions of consequence live there, not here.
+You need both files because they do different jobs.
+
+- The standard contains the procedure, the eight framework-gate principles, and the definitions of consequences.
+- This file tells the model when and how to use that information.
+
+Without this file, the model may wait until somebody asks for an MSS assessment. Without the standard, the model does not have the rules needed to perform the assessment.
 
 ### How to use it
 
-Paste **both files whole** as a system instruction. The standard first, then this file. Where depends on your tool:
+Copy **both complete files** into the place where your AI tool stores its main instructions. Put the standard first and this file second. The exact place depends on the tool:
 
-- in Claude Code — into the `CLAUDE.md` file,
+- in a repository agent — add both files through the repository-instruction mechanism supported by that tool,
 - in Claude Projects — into the project instructions,
 - in an ordinary chat window — as the first message.
 
