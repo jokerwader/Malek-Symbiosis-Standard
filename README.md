@@ -2,163 +2,100 @@
 
 # Malek Symbiosis Standard
 
-**The Symbiosis Standard.** Version 4.5.0. Author: Mateusz Małek.
+**A standard for checking decisions before they affect other people.** Version 4.5.0. Author: Mateusz Małek.
 
-Polish: [README.pl.md](README.pl.md) · Licensed CC BY-SA 4.0
+Polski: [README.pl.md](README.pl.md) · Licence: [CC BY-SA 4.0](LICENSE.md)
 
 ---
 
-## What this is
+## What MSS is
 
-MSS is **a set of questions you ask yourself about a decision before you carry it out.**
+MSS is a set of questions you ask before making a decision that can affect another person.
 
-Nothing more. There is no software here, no scoring, no certificate and no training course. There is a list of questions and a rule about what to do with the answers.
+You can use it yourself or with an AI. It works especially well with an AI because the model can ask questions you may not think to ask about your own decision.
 
-You can ask them alone. You can ask them together with an artificial intelligence — and that is where the system works best, because an AI asks the questions a person will not put to themselves.
-
-**This is not legal advice and it does not replace a lawyer.**
+MSS is not software, a score, a certificate, or a training course. It is a written procedure. It does not replace legal advice.
 
 ---
 
 ## Where it came from
 
-MSS was not written to be published. It was written as **one person's working tool** — somebody working with an artificial intelligence who noticed in themselves the same problem most people notice after a few months of that kind of work:
+We first wrote MSS as a working tool for one person using AI. We noticed a common problem:
 
-**An AI does what you ask it to.** It does it fast, it does it well, and it does not ask awkward questions. And decisions that hurt somebody rarely look bad at the moment they are taken. They look sensible, profitable and urgent.
+**An AI usually does what you ask.** It works quickly and rarely asks uncomfortable questions unless you tell it to. A harmful decision can therefore look sensible, profitable, and urgent when nobody challenges it.
 
-The first versions looked nothing like this one. There were scores, percentages, thresholds and weights. All of it was removed, because it did one bad thing: **it let you make up in one place what you had lost in another.** A decision with a low ethical score and a high business score came out positive overall. That is exactly the arithmetic this system is meant not to do.
+Early versions used scores, percentages, limits, and weights. We removed them. A high business score could cancel out a low ethical score and make a harmful decision look acceptable.
 
-What was left is what had to be left: **eight questions whose answer is "allowed" or "not allowed," and nothing in between.**
+MSS now uses eight questions. Each question can stop the decision. A good result in one area cannot cancel a failure in another.
 
-The name changed too. Earlier versions were called a "scoring system," after the scoring that no longer exists. Today's name says what it is actually about: **symbiosis** — that a human and an AI do together something neither would do alone, and that both sides answer to the same rules.
+The name refers to **symbiosis**. You bring the facts and responsibility. The AI brings questions and a different point of view. Both follow the same rules.
 
-<!-- TO BE COMPLETED BY THE AUTHOR: if you want to describe the personal context this came out of — a particular situation, text or conversation that started it — this is the place for one paragraph. -->
-
-It runs in production on the Fibid.pl, Frostbox.pl and AutoQuote.pl platforms, and across a number of business agents.
+MSS is used in production on Fibid.pl, Frostbox.pl, AutoQuote.pl, and by several business agents.
 
 ---
 
-## What is here, and what is not
+## What MSS is for
 
-What you are reading is **the skeleton**: the rules and the procedure, and nothing else. The version that runs in our own applications is built on top of this skeleton.
+The goal is simple: **do not let a decision that harms somebody pass unnoticed.**
 
-That version is not here and will not be — but not because it is better. Because it is **a different thing**. It is the product layer: wiring to particular data, particular roles inside a company, particular tools, working templates for agents. Published, it would be useless to anybody but us, and it would expose things that belong to nobody but us.
+MSS asks you to do three things:
 
-**The skeleton is not a cut-down version.** The rules standing here are exactly the rules running in our work, word for word. There is no demo edition, no simplified edition and no weakened edition. What is missing is only what ties these rules to one particular product.
+1. **Name the people affected.** Do not hide them behind words such as “the market” or “users”.
+2. **Check whether they can refuse.** A formal right to say no is not enough if saying no would cost them much more than accepting.
+3. **Leave a written record.** Another person should be able to see who was affected, what was checked, and what remains unknown.
 
-**For you that means this:** take the skeleton and build your own layer on it, the way we built ours. The rules are enough to start with today. The rest depends on what you work in.
-
----
-
-## What it is for
-
-**There is one goal: that a decision which hurts somebody does not pass unnoticed.**
-
-Not "so that everybody is ethical." Not "so that AI is safe." Goals put that way cannot be checked, so they mean nothing.
-
-MSS sets a goal that can be checked: **after a decision, a record is left from which somebody else can read who the decision touched, and whether that person had any say at all.**
-
-Three things follow from that, and the system holds to all three:
-
-**Name a person, not a group.** "This affects the market" names nobody. Until you write down who specifically loses, there is no way to see that anybody did.
-
-**Check whether that person could have refused.** Not whether they formally had the right — almost everybody does. Only what it would have cost them.
-
-**Write it down.** A conversation is gone by the evening. A record stays, and it can be read later — including against yourself.
-
----
-
-## The three pillars
-
-The name speaks of symbiosis, and symbiosis needs at least two sides. Here there are three.
-
-### The human
-
-**Has the answers.** They know what they want, what has already failed once, and who really stands on the other side. Nobody else knows that, and no tool will guess it.
-
-### The AI
-
-**Has the questions.** Not because it is cleverer — because it is not you. You are too close to your own decision to challenge it. That is not an accusation against you; it is a description of how every person defending something they thought of themselves behaves.
-
-### Ethics
-
-**Stands on neither of those two sides.** The eight principles that can stop a decision stand for the people that decision will touch — and those people are usually not in the room, and nobody asks them.
+MSS cannot guarantee an ethical decision. It makes missing facts and ignored people easier to see.
 
 ---
 
 ## How it works
 
-The whole procedure is six steps, and each fits in one sentence.
+| Step | What you ask |
+|---|---|
+| **1. Consequence** | Can the result be undone safely? |
+| **2. Framework gate** | Do all eight required principles allow the decision? |
+| **3. Review** | Is the decision useful, clear, controlled, and consistent? |
+| **4. Flags** | What must be checked, by whom, and by when? |
+| **5. Verdict** | Proceed, wait until flags are closed, or do not proceed? |
+| **6. Limits** | What could not be checked before the decision? |
 
-| Step | The question |
-|------|--------------|
-| **1. Consequence** | Can this be undone? |
-| **2. The framework gate** | Eight principles. Allowed or not allowed? |
-| **3. Review** | Five questions about the quality of the decision. |
-| **4. Flags** | What has to be closed, by whom, and by when? |
-| **5. Verdict** | Proceed, proceed after closing flags, or do not proceed. |
-| **6. Limits** | What did you not check? |
+The order matters. First check whether the decision is allowed. Then check whether it is worth doing. Finally, state what you still do not know.
 
-**First whether it is allowed. Then whether it is worth it. Last what you do not know.**
-
-Two things that set this apart from an ordinary checklist:
-
-**The gate is unconditional.** A closed gate is one you hold no key to: nothing reopens it — not a good justification, not good intentions, not the fact that you have done everything right so far. There is no balance sheet here on which something good offsets something bad.
-
-**The last section can overturn the verdict at the top of the page.** You write into your own document what you did not check — and that can change a decision recorded three paragraphs above. Nobody does that with pleasure, which is why the section is compulsory.
+For a reversible decision, the written result can be short. An irreversible decision needs a full record.
 
 ---
 
-## What the result looks like
+## Start here
 
-On a reversible decision you get a short note and nothing more.
+You do not need to read every file.
 
-On an irreversible decision the record is longer — but **longer only because the consequence is heavier**.
+- To try MSS in a chat, follow [Using MSS with Claude](guides/USE-WITH-CLAUDE.md).
+- To read every rule, open [STANDARD.md](standard/STANDARD.md).
+- To tell a model when to start an assessment, use [MODEL-INSTRUCTION.md](standard/MODEL-INSTRUCTION.md) together with the standard.
+- To see complete examples, open [examples/](examples/).
+- To test whether different models understand MSS in the same way, open [tests/](tests/).
 
-Three full examples, with a line-by-line commentary, are in [examples/](examples/).
+Other useful files:
 
----
-
-## Where everything is
-
-| File | Who for | What is in it |
-|------|---------|---------------|
-| **[STANDARD.md](standard/STANDARD.md)** | implementers, and AI | **All the rules.** The full specification: consequence, the eight principles, review, flags, verdict, record. |
-| [MODEL-INSTRUCTION.md](standard/MODEL-INSTRUCTION.md) | AI | When a model runs the assessment unprompted, and what to ask before it does. |
-| [USE-WITH-CLAUDE.md](guides/USE-WITH-CLAUDE.md) | you, right now | How to get it running in a chat window. Two minutes. |
-| [examples/](examples/) | anybody | Three full assessments with commentary. |
-| [DIAGRAMS.md](guides/DIAGRAMS.md) | visual readers | Four diagrams of the procedure. |
-| [NAME-USAGE.md](guides/NAME-USAGE.md) | implementers | When you may say "MSS-compliant". |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | contributors | What to send, and how. |
-
-**You do not have to read all of it.** If you only want to see whether this works, go straight to [USE-WITH-CLAUDE.md](guides/USE-WITH-CLAUDE.md). If you want to know exactly what the rules say, go to [STANDARD.md](standard/STANDARD.md).
+- [DIAGRAMS.md](guides/DIAGRAMS.md) — four diagrams of the procedure;
+- [NAME-USAGE.md](guides/NAME-USAGE.md) — when you may say “MSS-compliant”;
+- [CONTRIBUTING.md](CONTRIBUTING.md) — how to report a problem or propose a change;
+- [CHANGELOG.md](CHANGELOG.md) — what changed between versions.
 
 ---
 
-## Try it
+## What is published
 
-Two minutes to get it running in a chat window: **[Using MSS with Claude](guides/USE-WITH-CLAUDE.md)**.
+This repository contains the complete MSS rules and procedure. They are not a demo or a reduced version.
 
-Then give it a decision of your own. Preferably one you are not sure about.
-
----
-
-## What this does not solve
-
-**Ethics cannot be closed inside rules.** That sentence is not modesty but a warning — and it stands in the standard itself.
-
-The eight principles can be played with a clever justification. More easily still by stretching the classification of consequence, or by the name of the decision alone, because the name is one word and nobody checks it.
-
-**MSS gives no guarantee. It gives this much: cheating is harder, and it is written down.**
-
-If you find a decision that passes all eight principles and should not — **that is the most valuable thing anybody can send this project.** How to report it is in [CONTRIBUTING.md](CONTRIBUTING.md).
+Our applications add product-specific data, roles, tools, and workflows. That product layer is not included because it only makes sense inside those applications. You can build your own layer around the same published rules.
 
 ---
 
 ## Licence and name
 
-**The text** is under [CC BY-SA 4.0](LICENSE.md): copy it, change it, use it commercially — as long as you credit the author and keep the same licence.
+You may copy, change, and use the text commercially under [CC BY-SA 4.0](LICENSE.md). You must credit the author and keep the same licence.
 
-**The name** is a separate matter. "MSS-compliant" may only be said where all eight principles are implemented, without exceptions. Partial adoption is described as "based on MSS," saying which parts were left out — details in [NAME-USAGE.md](guides/NAME-USAGE.md).
+Use the phrase **“MSS-compliant”** only when all eight framework-gate principles are implemented without exceptions. If you use only part of MSS, say **“based on MSS”** and list what you left out. See [NAME-USAGE.md](guides/NAME-USAGE.md).
 
-Author: **Mateusz Małek**. Citation: [CITATION.cff](CITATION.cff). History of changes: [CHANGELOG.md](CHANGELOG.md).
+Author: **Mateusz Małek** · Citation: [CITATION.cff](CITATION.cff)
